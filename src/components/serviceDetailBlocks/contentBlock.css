@@ -1,0 +1,109 @@
+.content-block-container {
+    display: flex;
+    margin: 180px 0 200px
+}
+
+@media screen and (max-width: 768px) {
+    .content-block-container {
+        flex-direction: column;
+        margin: 90px 0
+    }
+}
+
+.content-block-container .side-wrapper {
+    width: 30%
+}
+
+@media screen and (max-width: 768px) {
+    .content-block-container .side-wrapper {
+        width: 100%
+    }
+}
+
+.content-block-container .points li {
+    margin-bottom: 12px
+}
+
+.content-block-container .points li:before {
+    content: "";
+    display: inline-block;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background-color: var(--color-primary-red);
+    margin-right: 20px;
+    -webkit-transform: translate3d(0, calc(-50% - 2px), 0);
+    transform: translate3d(0, calc(-50% - 2px), 0)
+}
+
+.content-block-container .related {
+    margin-top: 250px
+}
+
+@media screen and (max-width: 768px) {
+    .content-block-container .related {
+        margin-top: 50px
+    }
+}
+
+.content-block-container .related-title {
+    text-transform: uppercase;
+    margin-bottom: 10px
+}
+
+.content-block-container .related-list {
+    color: #6f6f6f;
+    text-decoration: underline
+}
+
+@media screen and (max-width: 768px) {
+    .content-block-container .related-list li {
+        margin-bottom: 10px
+    }
+}
+
+.content-block-container .content-wrapper {
+    width: 70%;
+    padding-top: 180px;
+    position: relative
+}
+
+@media screen and (max-width: 768px) {
+    .content-block-container .content-wrapper {
+        width: 100%;
+        padding-top: 10px
+    }
+}
+
+.content-block-container .content-wrapper p {
+    margin-bottom: 45px
+}
+
+@media screen and (max-width: 768px) {
+    .content-block-container .content-wrapper p {
+        margin-bottom: 20px
+    }
+}
+
+.content-block-container .content-spark {
+    position: absolute;
+    top: 45px;
+    right: -50px;
+    opacity: .15
+}
+
+@media screen and (max-width: 768px) {
+    .content-block-container .content-spark {
+        top: -200px
+    }
+}
+
+.content-block-container .cta {
+    margin: 160px 0 0
+}
+
+@media screen and (max-width: 768px) {
+    .content-block-container .cta {
+        margin: 80px 0 0
+    }
+}

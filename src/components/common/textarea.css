@@ -1,0 +1,57 @@
+.textarea {
+    width: 100%;
+    height: auto
+}
+
+.textarea textarea {
+    border: none;
+    display: block;
+    width: 100%;
+    resize: none;
+    min-height: 70px;
+    padding-top: 25px;
+    box-sizing: border-box;
+    background: none
+}
+
+@media screen and (max-width: 768px) {
+    .textarea textarea {
+        margin-top: 10px
+    }
+}
+
+.textarea textarea:focus {
+    outline: none
+}
+
+.textarea textarea:focus + .underline:after {
+    -webkit-transform: scale(1);
+    transform: scale(1)
+}
+
+.textarea .underline {
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: #bcbcbc;
+    position: relative
+}
+
+.textarea .underline:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: var(--color-primary-black-1);
+    transition: -webkit-transform .85s var(--primary-ease);
+    transition: transform .85s var(--primary-ease);
+    transition: transform .85s var(--primary-ease), -webkit-transform .85s var(--primary-ease);
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transform-origin: left;
+    transform-origin: left
+}
+

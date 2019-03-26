@@ -1,0 +1,15 @@
+.expandersContainer {
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  pointer-events: none;
+  position: absolute;
+  left: 0;
+  top: 0
+}
+
+.expandersContainer, .nav {
+  position: absolute;
+  left: 0;
+  top: 0;
+}

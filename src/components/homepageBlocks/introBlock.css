@@ -1,0 +1,116 @@
+
+/*.intro {*/
+    /*max-width: calc(100% - 160px);*/
+    /*position: relative;*/
+    /*margin: 0 auto*/
+/*}*/
+/*.intro__container {*/
+    /*position: relative;*/
+    /*top: 50%*/
+    /*z-index: 2;*/
+    /*padding: 3rem;*/
+    /*width: 100%;*/
+/*}*/
+
+.intro {
+    height: 100vh;
+    max-height: 1300px;
+    color: rgba(22,21,23,.2);
+    position: relative;
+    overflow: hidden;
+    background: #f04e30;
+}
+
+.intro__container {
+    position: relative;
+    top: 50%;
+    /*-webkit-transform: translateY(-50%);*/
+    /*transform: translateY(-50%);*/
+    z-index: 2;
+    padding: 3rem;
+    width: 100%
+}
+
+@media (min-width: 1000px) {
+    .intro__container {
+        padding:8.33333%;
+        width: 83.33333%
+    }
+}
+
+@media (min-width: 1600px) {
+    .intro__container {
+        width:66.66667%
+    }
+}
+.intro__text {
+    font-size: 26px;
+    line-height: 33px;
+    font-weight: 800;
+    font-family: "Noto Serif CJK SC",sans-serif;
+    margin-bottom: 5rem;
+    opacity: 1;
+    transition: opacity .5s cubic-bezier(.15,.15,0,1)
+}
+
+.intro__underline {
+    padding-bottom: .8rem;
+    border: none;
+    border-bottom: 1px solid;
+    -o-border-image: url(/assets/callout-border-dot.svg) 1 repeat;
+    border-image: url(/assets/callout-border-dot.svg) 1 repeat;
+    color: #fff
+}
+
+.intro__emphasized {
+    color: #fff
+}
+
+.intro__strikethrough {
+    text-decoration: line-through
+}
+
+.intro.beliefs {
+    color: #3f3d41
+}
+
+@media screen and (max-width: 768px) {
+    .intro {
+        max-width: 100%
+    }
+}
+
+.intro .ribbon {
+    text-transform: uppercase;
+    -webkit-transform: translate3d(-40px, 0, 0);
+    transform: translate3d(-40px, 0, 0);
+    margin-bottom: 40px
+}
+
+@media screen and (max-width: 768px) {
+    .intro .ribbon {
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0)
+    }
+}
+
+.intro .spark3 {
+    position: absolute;
+    top: -165px;
+    right: -80px;
+    opacity: .15
+}
+
+@media screen and (max-width: 768px) {
+    .intro .spark3 {
+        top: auto;
+        bottom: -200px;
+        right: 0
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .intro .intro-context {
+        line-height: 38px
+    }
+}

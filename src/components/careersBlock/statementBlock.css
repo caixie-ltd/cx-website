@@ -1,0 +1,57 @@
+.about-statement {
+    position: relative
+}
+
+.about-statement .ribbon {
+    text-transform: uppercase;
+    margin-bottom: 40px
+}
+
+.about-statement .spark3 {
+    position: absolute;
+    top: 0;
+    right: 90px;
+    opacity: .15;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    -webkit-transform: translate3d(40px, 0, 0);
+    transform: translate3d(40px, 0, 0)
+}
+
+@media screen and (max-width: 768px) {
+    .about-statement .spark3 {
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0);
+        top: auto;
+        bottom: -200px;
+        right: 0
+    }
+}
+
+.about-statement .intro-context {
+    max-width: 80%;
+    -webkit-transform: translate3d(40px, 0, 0);
+    transform: translate3d(40px, 0, 0)
+}
+
+@media screen and (max-width: 768px) {
+    .about-statement .intro-context {
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0);
+        line-height: 38px;
+        max-width: 100%
+    }
+}
+
+.about-statement .more-works {
+    margin-top: 75px;
+    -webkit-transform: translate3d(40px, 0, 0);
+    transform: translate3d(40px, 0, 0)
+}
+
+@media screen and (max-width: 768px) {
+    .about-statement .more-works {
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0)
+    }
+}

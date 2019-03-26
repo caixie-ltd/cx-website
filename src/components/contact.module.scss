@@ -1,0 +1,28 @@
+.contact {
+  font-size: 16px;
+  line-height: 27.5px;
+  font-weight: 400;
+  font-family: "Proxima Nova", Helvetica, sans-serif;
+  margin-bottom: 1.5rem;
+  line-height: 28px;
+  font-size: 16px;
+  font-weight: 300;
+
+  @media (min-width: 1000px) {
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    margin-left: 10%;
+  }
+}
+.contact__social {}
+.contact__socialLink {
+  margin-right: 3rem;
+  margin-bottom: 1.5rem;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.contact__socialLink:last-child {
+  margin-right: 0;
+}

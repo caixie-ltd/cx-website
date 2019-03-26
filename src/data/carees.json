@@ -1,0 +1,58 @@
+[
+  {
+    "id": "e4dc83e1-f775-5e55-86b9-72f902bac125",
+    "slug": "senior-project-manager",
+    "title": "Senior Project Manager",
+    "metaData": {
+      "title": "Senior Project Manager",
+      "metaTitle": "Baunfire | Senior Project Manager Career | Client Services, Management, Web, Digital Design",
+      "description": "Baunfire is an award-winning digital agency, building great things for ambitious brands. Apply to join our client services team in the heart of San Jose.",
+      "keywords": "baunfire, senior project manager, project management, client relations, client services, careers, jobs, openings, positions, digital agency, design agency, creative agency"
+    },
+    "department": [
+      "Project Management"
+    ]
+  },
+  {
+    "id": "cb1fa70e-c860-5f77-829b-6567277c4012",
+    "slug": "senior-wordpress-developer",
+    "title": "Senior Wordpress Developer",
+    "metaData": {
+      "title": "Senior Wordpress Developer",
+      "metaTitle": "Baunfire | Senior WordPress Developer Career | Web Development, Front-End, Back-End",
+      "description": "Baunfire is an award-winning digital agency that designs and develops elevated websites. Apply to join our development team in the heart of San Jose.",
+      "keywords": "baunfire, senior wordpress developer, senior developer, web developer, front-end developer, back-end developer, careers, jobs, openings, positions, hiring, digital agency"
+    },
+    "department": [
+      "Development"
+    ]
+  },
+  {
+    "id": "0a236c55-0b26-563e-b06d-c936bd623cca",
+    "slug": "senior-designer",
+    "title": "Senior Digital Designer",
+    "metaData": {
+      "title": "Senior Digital Designer",
+      "metaTitle": "Baunfire | Senior Digital Designer Career | Web Design, UI/UX, User Experience, Creative",
+      "description": "Baunfire is an award-winning digital agency that designs and develops elevated websites. Apply to join our design team in the heart of San Jose.",
+      "keywords": "baunfire, senior digital designer, senior designer, web designer, visual designer, interactive designer, careers, jobs, openings, positions, hiring, digital agency, design agency, creative agency"
+    },
+    "department": [
+      "Creative"
+    ]
+  },
+  {
+    "id": "6fc29cc9-db48-5ac8-8c50-85150e9a0944",
+    "slug": "senior-front-end-developer",
+    "title": "Senior Front-End Developer",
+    "metaData": {
+      "title": "Senior Front-End Developer",
+      "metaTitle": "Baunfire | Senior Front-End Developer Career | Web Development, Front-End, Back-End",
+      "description": "Baunfire is an award-winning digital agency that designs and develops elevated websites. Apply to join our developer team in the heart of San Jose.",
+      "keywords": "baunfire, senior front-end developer, senior developer, web developer, front-end developer, back-end developer, careers, jobs, openings, positions, hiring, digital agency"
+    },
+    "department": [
+      "Development"
+    ]
+  }
+]

@@ -1,0 +1,21 @@
+.work-detail-works-block-container {
+    padding: 0 0 180px;
+    margin-bottom: -180px
+}
+
+@media screen and (max-width: 768px) {
+    .work-detail-works-block-container {
+        padding: 0 0 90px;
+        margin-bottom: -90px
+    }
+}
+
+.work-detail-works-block-container .works-list {
+    padding-top: 120px
+}
+
+@media screen and (max-width: 768px) {
+    .work-detail-works-block-container .works-list {
+        padding-top: 20px
+    }
+}

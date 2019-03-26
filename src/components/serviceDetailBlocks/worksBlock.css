@@ -1,0 +1,36 @@
+
+.service-works-block-container {
+    background-color: var(--color-primary-gray);
+    padding: 180px 0;
+    margin-bottom: -180px
+}
+
+@media screen and (max-width: 768px) {
+    .service-works-block-container {
+        padding: 90px 0;
+        margin-bottom: -90px
+    }
+}
+
+.service-works-block-container .works-list {
+    padding-top: 120px
+}
+
+@media screen and (max-width: 768px) {
+    .service-works-block-container .works-list {
+        padding-top: 40px
+    }
+}
+
+.service-filled-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--color-primary-gray);
+    -webkit-transform-origin: center;
+    transform-origin: center
+}
+
+

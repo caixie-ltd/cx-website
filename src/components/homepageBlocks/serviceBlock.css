@@ -1,0 +1,198 @@
+.service-block {
+    opacity: 0
+}
+
+@media screen and (max-width: 768px) {
+    .service-block {
+        opacity: 1
+    }
+}
+
+.service-block .service-head {
+    -webkit-transform: translate3d(0, 260px, 0);
+    transform: translate3d(0, 260px, 0)
+}
+
+@media screen and (max-width: 768px) {
+    .service-block .service-head {
+        -webkit-transform: translate3d(0, 40px, 0);
+        transform: translate3d(0, 40px, 0);
+        margin-top: 50px
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .service-block .service-title {
+        margin-bottom: 10px
+    }
+}
+
+.service-block .block-name {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    display: none;
+    -webkit-transform: translate3d(0, calc(-50% - 30px), 0);
+    transform: translate3d(0, calc(-50% - 30px), 0);
+    color: var(--color-sub-white-2)
+}
+
+@media screen and (max-width: 768px) {
+    .service-block .block-name {
+        display: block
+    }
+}
+
+.service-block .key-image {
+    -webkit-clip-path: inset(0 100% 0 0);
+    clip-path: inset(0 100% 0 0);
+    width: 320px;
+    height: 650px;
+    overflow: hidden;
+    -webkit-transform: rotate(30deg) scale(1);
+    transform: rotate(30deg) scale(1);
+    transition: -webkit-clip-path 1.55s var(--primary-ease);
+    transition: clip-path 1.55s var(--primary-ease);
+    transition: clip-path 1.55s var(--primary-ease), -webkit-clip-path 1.55s var(--primary-ease)
+}
+
+@media screen and (max-width: 1440px) {
+    .service-block .key-image-container {
+        -webkit-transform: scale(.7);
+        transform: scale(.7);
+        -webkit-transform-origin: center;
+        transform-origin: center
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .service-block .key-image-container {
+        -webkit-transform: scale(.5);
+        transform: scale(.5);
+        -webkit-transform-origin: center;
+        transform-origin: center
+    }
+}
+
+.service-block .key-image > div {
+    -webkit-transform: rotate(-30deg) translate3d(-15%, -20%, 0) scale(1.1);
+    transform: rotate(-30deg) translate3d(-15%, -20%, 0) scale(1.1);
+    opacity: 0;
+    transition: all 1.75s var(--primary-ease)
+}
+
+.service-block .key-image.show {
+    -webkit-clip-path: inset(0 0 0 0);
+    clip-path: inset(0 0 0 0)
+}
+
+.service-block .key-image.show > div {
+    -webkit-transform: rotate(-30deg) translate3d(-15%, -20%, 0) scale(1);
+    transform: rotate(-30deg) translate3d(-15%, -20%, 0) scale(1);
+    opacity: 1
+}
+
+.service-block .key-image.reverse {
+    -webkit-transform: rotate(-30deg);
+    transform: rotate(-30deg)
+}
+
+.service-block .key-image.reverse > div {
+    -webkit-transform: rotate(30deg) translate3d(-27%, -5%, 0) scale(1);
+    transform: rotate(30deg) translate3d(-27%, -5%, 0) scale(1)
+}
+
+.service-block .key-image.reverse.show {
+    -webkit-transform: rotate(-30deg) scale(1);
+    transform: rotate(-30deg) scale(1)
+}
+
+.service-block .text-block {
+    position: absolute;
+    color: #6f6f6f
+}
+
+@media screen and (max-width: 768px) {
+    .service-block .text-block {
+        position: unset;
+        -webkit-transform: translate3d(0, -120px, 0);
+        transform: translate3d(0, -120px, 0)
+    }
+}
+
+.service-block .block {
+    position: relative;
+    height: 200vh;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+@media screen and (max-width: 768px) {
+    .service-block .block {
+        height: 570px
+    }
+}
+
+.service-block .strategy .block-name {
+    left: -100px
+}
+
+.service-block .strategy .text-block {
+    top: calc(50vh + 255px);
+    right: 60px;
+    max-width: 340px
+}
+
+@media screen and (max-width: 1440px) {
+    .service-block .strategy .text-block {
+        top: calc(50vh + 255px)
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .service-block .strategy .text-block {
+        top: calc(50vh + 340px)
+    }
+}
+
+.service-block .website .block-name {
+    left: -90px
+}
+
+.service-block .website .text-block {
+    top: calc(50vh - 220px);
+    right: 0;
+    max-width: 400px
+}
+
+@media screen and (max-width: 1440px) {
+    .service-block .website .text-block {
+        top: calc(50vh - 100px)
+    }
+}
+
+.service-block .creative {
+    height: 300vh
+}
+
+@media screen and (max-width: 768px) {
+    .service-block .creative {
+        height: 570px
+    }
+}
+
+.service-block .creative .block-name {
+    left: -80px
+}
+
+.service-block .creative .text-block {
+    top: calc(50vh + 290px);
+    right: 0;
+    max-width: 400px
+}
+
+.service-block .services-view-more {
+    text-align: center
+}

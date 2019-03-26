@@ -1,0 +1,95 @@
+.cardGrid {
+  background: #f5f5f5;
+  position: relative
+}
+
+.cardGrid__container {
+}
+
+//card-grid__content
+.cardGrid__content {
+}
+
+@media (min-width: 600px) {
+  .cardGrid {
+    padding: 12.5% 0 0
+  }
+}
+
+@media (min-width: 1000px) {
+  .cardGrid {
+    padding: 8.33333% 0 0
+  }
+}
+
+@media (min-width: 1600px) {
+  .cardGrid {
+    padding: 4.16667% 0 0
+  }
+}
+
+.cardGrid__cards {
+  padding: 6rem 3rem;
+  font-size: 0
+}
+
+@media (min-width: 600px) {
+  .cardGrid__cards {
+    padding: 8.33333% 8.33333% 4.16667%
+  }
+}
+
+.cardGrid__card {
+  display: inline-flex;
+  align-items: flex-end;
+  width: 100%;
+  background: #fff;
+  border-radius: 6px;
+  box-shadow: 0 8px 24px 0 rgba(0, 0, 0, .08);
+  font-size: medium;
+  overflow: hidden;
+  padding: 3rem;
+  margin-bottom: 2rem;
+  min-height: 400px
+}
+
+.cardGrid__card:before {
+  content: "";
+  width: 0;
+  padding-bottom: 125%
+}
+
+@media (min-width: 600px) {
+  .cardGrid__card {
+    width: calc(50% - 2rem);
+    margin-right: 2rem;
+    min-width: 229px
+  }
+}
+
+@media (min-width: 1000px) {
+  .cardGrid__card {
+    width: calc(33.3% - 2rem);
+    max-width: 32rem
+  }
+}
+
+@media (min-width: 1600px) {
+  .cardGrid__card {
+    width: calc(25% - 2rem)
+  }
+}
+
+.clientGrid__logo {
+  height: 3.5rem;
+  width: 65%;
+  margin: 2rem 0;
+  background-size: contain;
+  background-repeat: no-repeat
+}
+
+.clientGrid__description {
+  opacity: .4;
+  font-weight: 500;
+  font-size: 14px
+}

@@ -1,0 +1,15 @@
+version: '3.5'
+services:
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    networks:
+      traefik:
+        aliases:
+          - "caixie.home"
+        external: true
+    labels:
+      - "traefik.enable=true"
+      - "traefik.port=80"
+      - "traefik.frontend.rule=Host:caixie.top, caixie.ltd, www.caixie.top, www.caixie.ltd"

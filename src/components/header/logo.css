@@ -1,0 +1,88 @@
+.identity {
+    position: relative;
+    -webkit-transform: translate3d(0, -15px, 0) scale(.9);
+    transform: translate3d(0, -15px, 0) scale(.9);
+    transition: opacity .85s cubic-bezier(.475, .425, 0, .995);
+    transition: opacity .85s var(--primary-ease);
+    opacity: 1
+}
+
+@media screen and (max-width: 768px) {
+    .identity {
+        -webkit-transform: translate3d(0, -12px, 0) scale(.8);
+        transform: translate3d(0, -12px, 0) scale(.8);
+        -webkit-transform-origin: center left;
+        transform-origin: center left
+    }
+}
+
+.identity svg {
+    height: 28px
+}
+
+.identity .letter {
+    position: absolute;
+    top: 0
+}
+
+.identity .a {
+    left: 20px
+}
+
+.identity .u {
+    left: 45px
+}
+
+.identity .n {
+    left: 69px
+}
+
+.identity .f {
+    left: 94px
+}
+
+.identity .i {
+    left: 114px
+}
+
+.identity .r {
+    left: 124px
+}
+
+.identity .e {
+    left: 147px
+}
+
+.identity .circle {
+    position: absolute;
+    left: 20px;
+    width: 45px;
+    height: 45px;
+    -webkit-transform: translate3d(-16px, -7px, 0);
+    transform: translate3d(-16px, -7px, 0)
+}
+
+.identity .symbol {
+    position: absolute;
+    top: -13px;
+    left: 0;
+    width: 56px;
+    line-height: 0
+}
+
+@media screen and (max-width: 768px) {
+    .identity .symbol {
+        top: -5px;
+        width: 44px
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .identity.is-symbol {
+        opacity: 0
+    }
+}
+
+.identity.hide {
+    opacity: 0
+}

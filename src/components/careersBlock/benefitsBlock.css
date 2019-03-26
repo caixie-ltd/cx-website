@@ -1,0 +1,43 @@
+.benefits-block-container {
+    padding: 180px 0;
+    display: flex;
+    justify-content: flex-end;
+    position: relative
+}
+
+@media screen and (max-width: 768px) {
+    .benefits-block-container {
+        flex-direction: column;
+        padding: 90px 0 0
+    }
+}
+
+.benefits-block-container .value-spark {
+    position: absolute;
+    top: 555px;
+    left: 0;
+    opacity: .15
+}
+
+.benefits-block-container .mobile-benefits-title {
+    margin-bottom: 60px
+}
+
+.benefits-block-container .benefits-list {
+    max-width: 47%;
+    margin-right: 40px
+}
+
+@media screen and (max-width: 768px) {
+    .benefits-block-container .benefits-list {
+        max-width: 100%
+    }
+}
+
+.benefits-block-container .value {
+    margin-bottom: 15px
+}
+
+.benefits-block-container .value-description {
+    margin-bottom: 60px
+}

@@ -1,0 +1,103 @@
+.intro {
+  height: 100vh;
+  //max-height: 1300px;
+  color: rgba(22, 21, 23, .2);
+  position: relative;
+  overflow: hidden;
+  background: #f04e30;
+  &:before {
+
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--color-primary-red);
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    transition: -webkit-transform 1.25s var(--primary-ease);
+    transition: transform 1.25s var(--primary-ease);
+    transition: transform 1.25s var(--primary-ease), -webkit-transform 1.25s var(--primary-ease);
+    -webkit-transform-origin: left;
+    transform-origin: left;
+
+    -webkit-transform: scale(1);
+    transform: scale(1)
+  }
+}
+
+.intro__container {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  z-index: 2;
+  padding: 3rem;
+  width: 100%;
+
+  @media (min-width: 1000px) {
+    padding: 8.33333%;
+    width: 83.33333%
+  }
+
+  @media (min-width: 1600px) {
+    width: 66.66667%
+  }
+}
+
+.intro__text {
+  font-size: 26px;
+  line-height: 33px;
+  font-weight: 800;
+  font-family: "Noto Serif CJK SC", Helvetica, sans-serif;
+  margin-bottom: 5rem;
+  opacity: 1;
+  transition: opacity .5s cubic-bezier(.15, .15, 0, 1);
+
+  @media (min-width: 600px) {
+    font-size: 36px;
+    line-height: 44px
+  }
+
+  @media (min-width: 1600px) {
+    font-size: 41px;
+    line-height: 55px
+  }
+
+
+  @media (max-width: 414px) {
+    font-size: 22px;
+    line-height: 55px
+  }
+
+  @media (min-width: 600px) {
+    line-height: 77px
+  }
+}
+
+.-visible .intro__text {
+  opacity: 1
+}
+
+.intro__underline {
+  padding-bottom: .8rem;
+  border: none;
+  border-bottom: 1px solid;
+  -o-border-image: url(/assets/intro-border-dot.svg) 1 repeat;
+  border-image: url(/assets/intro-border-dot.svg) 1 repeat;
+  color: #fff
+}
+
+.intro__emphasized {
+  color: #fff
+}
+
+.intro__strikethrough {
+  text-decoration: line-through
+}
+
+.intro.beliefs {
+  color: #3f3d41
+}

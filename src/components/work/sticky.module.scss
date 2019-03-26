@@ -1,0 +1,30 @@
+.work__stickyWrapper {
+  z-index: 2;
+  pointer-events: none;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  @media (max-width: 999px) {
+    opacity: 0;
+    transform: translateY(22px);
+    transition: opacity 400ms cubic-bezier(0.15, 0.15, 0, 1), transform 400ms cubic-bezier(0.15, 0.15, 0, 1);
+  }
+
+  &.isSticky {
+    position: fixed;
+
+    @media (max-width: 999px) {
+      bottom: 0;
+      top: auto;
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  &.isBottom {
+    bottom: 0;
+    top: auto;
+  }
+}
+

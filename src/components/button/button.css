@@ -1,0 +1,168 @@
+.default-button {
+    text-transform: uppercase;
+    position: relative;
+    height: 48px;
+    --button-duration: 0.45s;
+    cursor: pointer;
+    -webkit-transform: translate3d(20px, 0, 0);
+    transform: translate3d(20px, 0, 0)
+}
+
+.default-button .button-background .left, .default-button .button-background .right {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 48px;
+    height: 100%;
+    z-index: 1;
+    display: flex;
+    justify-content: flex-end;
+    -webkit-transform: translate3d(-20px, 0, 0);
+    transform: translate3d(-20px, 0, 0)
+}
+
+.default-button .button-background .left:before, .default-button .button-background .right:before {
+    content: "";
+    width: 48px;
+    display: block;
+    height: 48px;
+    border-radius: 50%;
+    background-color: var(--color-sub-white-1);
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    transition: -webkit-transform .45s var(--primary-ease);
+    transition: transform .45s var(--primary-ease);
+    transition: transform .45s var(--primary-ease), -webkit-transform .45s var(--primary-ease)
+}
+
+.default-button .button-background .center {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    width: 0;
+    height: 100%;
+    background-color: var(--color-sub-white-1);
+    z-index: 1;
+    -webkit-transform-origin: right;
+    transform-origin: right;
+    transition: width var(--button-duration) var(--primary-ease) var(--button-duration), -webkit-transform var(--button-duration) var(--primary-ease);
+    transition: width var(--button-duration) var(--primary-ease) var(--button-duration), transform var(--button-duration) var(--primary-ease);
+    transition: width var(--button-duration) var(--primary-ease) var(--button-duration), transform var(--button-duration) var(--primary-ease), -webkit-transform var(--button-duration) var(--primary-ease)
+}
+
+.default-button .button-background .left {
+    transition: all var(--button-duration) var(--primary-ease)
+}
+
+.default-button .button-background .right {
+    transition: all var(--button-duration) var(--primary-ease) var(--button-duration)
+}
+
+@media screen and (min-width: 769px) {
+    .default-button:hover .left {
+        -webkit-transform: translate3d(20px, 0, 0);
+        transform: translate3d(20px, 0, 0);
+        width: 100%;
+        transition-duration: calc(var(--button-duration) - .15s);
+        transition-timing-function: var(--custom-ease-3);
+        transition-delay: var(--button-duration)
+    }
+
+    .default-button:hover .center {
+        width: 100%;
+        -webkit-transform: scaleX(0);
+        transform: scaleX(0);
+        transition: width var(--button-duration) var(--primary-ease), -webkit-transform calc(var(--button-duration) - .15s) var(--custom-ease-3) var(--button-duration);
+        transition: width var(--button-duration) var(--primary-ease), transform calc(var(--button-duration) - .15s) var(--custom-ease-3) var(--button-duration);
+        transition: width var(--button-duration) var(--primary-ease), transform calc(var(--button-duration) - .15s) var(--custom-ease-3) var(--button-duration), -webkit-transform calc(var(--button-duration) - .15s) var(--custom-ease-3) var(--button-duration)
+    }
+
+    .default-button:hover .right {
+        -webkit-transform: translate3d(20px, 0, 0);
+        transform: translate3d(20px, 0, 0);
+        width: 100%;
+        transition-delay: 0s
+    }
+}
+
+.default-button .text {
+    display: inline-block;
+    position: relative;
+    z-index: 3;
+    -webkit-transform: translate3d(-20px, 0, 0);
+    transform: translate3d(-20px, 0, 0);
+    transition: all .75s var(--primary-ease);
+    opacity: 0
+}
+
+.default-button .plus-icon {
+    position: relative;
+    width: 7px;
+    height: 7px;
+    display: inline-block;
+    margin-left: 28px;
+    z-index: 2;
+    opacity: 0;
+    transition: opacity .85s var(--primary-ease)
+}
+
+.default-button .plus-icon:after, .default-button .plus-icon:before {
+    content: "";
+    position: absolute;
+    top: calc(50% - 2px);
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: var(--color-primary-black-2)
+}
+
+.default-button .plus-icon:after {
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+    -webkit-transform-origin: center;
+    transform-origin: center
+}
+
+.default-button.theme-white {
+    color: var(--color-primary-white)
+}
+
+.default-button.theme-white .button-background .center, .default-button.theme-white .button-background .left:before, .default-button.theme-white .button-background .right:before {
+    background-color: #323135
+}
+
+.default-button.theme-white .plus-icon:after, .default-button.theme-white .plus-icon:before {
+    background-color: var(--color-primary-white)
+}
+
+.default-button.theme-red {
+    color: var(--color-primary-white)
+}
+
+.default-button.theme-red .button-background .center, .default-button.theme-red .button-background .left:before, .default-button.theme-red .button-background .right:before {
+    background-color: #ff6b50
+}
+
+.default-button.theme-red .plus-icon:after, .default-button.theme-red .plus-icon:before {
+    background-color: var(--color-primary-white)
+}
+
+.default-button.animate .left:before, .default-button.animate .right:before {
+    -webkit-transform: scale(1);
+    transform: scale(1)
+}
+
+.default-button.animate .text {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    opacity: 1
+}
+
+.default-button.animate .plus-icon {
+    opacity: 1
+}
+
+.default-button.animate.delayed .left:before, .default-button.animate.delayed .plus-icon, .default-button.animate.delayed .right:before, .default-button.animate.delayed .text {
+    transition-delay: 3s
+}

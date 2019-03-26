@@ -1,0 +1,107 @@
+$color_1: #fff;
+$font_family_1: "Noto Serif CJK SC", Helvetica, sans-serif;
+$background_color_1: #161517;
+
+.footer {
+  padding: 8rem 3rem 0;
+  color: $color_1;
+  background-color: $background_color_1;
+  font-size: 0;
+  position: relative;
+  @media (min-width: 1600px) {
+    padding: 4.16667% 8.33333%;
+    padding-bottom: 0;
+  }
+
+  @media (min-width: 600px) {
+    padding: 8.33333%;
+    padding-bottom: 0;
+  }
+}
+
+.footer__logo {
+  width: 100%;
+  margin-bottom: 2rem;
+  @media (min-width: 1000px) {
+    width: 10%;
+    display: inline-block;
+  }
+}
+
+.footer__nav {
+  font-size: 18px;
+  font-weight: 600;
+  font-family: $font_family_1;
+  margin-bottom: 4rem;
+  width: 100%;
+  @media (min-width: 1600px) {
+    font-size: 20px;
+    line-height: 33px;
+  }
+  @media (min-width: 1000px) {
+    width: 90%;
+    display: inline-block;
+    margin-bottom: 8rem;
+  }
+
+  @media (min-width: 600px) {
+    font-size: 19px;
+    line-height: 27.5px;
+  }
+}
+
+.footer__links {
+}
+
+.footer__link {
+  line-height: 33px;
+  font-size: 16px;
+
+  @media (min-width: 1000px) {
+    margin-right: 5rem;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+  @media (min-width: 600px) {
+      display: inline-block;
+      margin-right: 4rem;
+      line-height: 27.5px;
+  }
+
+}
+
+.footer__copy {
+  font-size: 11px;
+  letter-spacing: 1.83px;
+  line-height: 22px;
+  font-weight: 800;
+  text-transform: uppercase;
+  opacity: 0.3;
+  margin-bottom: 6rem;
+  @media (min-width: 1600px) {
+    font-size: 12px;
+    letter-spacing: 2.17px;
+  }
+  @media (min-width: 1000px) {
+    font-size: 11px;
+    margin-bottom: 8.33333%;
+  }
+  @media (min-width: 600px) {
+    font-size: 11px;
+  }
+
+  @media (max-width: 599px) {
+    line-height: 16.5px;
+  }
+}
+
+.footer__cioc {
+  display: block;
+
+  img {
+    display: block;
+  }
+}
+

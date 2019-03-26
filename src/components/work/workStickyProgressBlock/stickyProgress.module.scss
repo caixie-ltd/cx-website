@@ -1,0 +1,44 @@
+.work__stickyProgress {
+  vertical-align: top;
+  position: relative;
+  height: 100vh;
+  max-height: 1500px;
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: center;
+  display: none;
+
+  @media (min-width: 600px) {
+    width: 16.66667%;
+    display: inline-flex;
+  }
+
+  @media (min-width: 1000px) {
+    width: 16.66667%;
+  }
+}
+
+.work__progress {
+  text-align: right;
+  padding-right: 1rem;
+  margin-left: auto;
+  overflow: hidden;
+  width: 100%;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+
+  @media (min-width: 1000px) {
+    padding-right: 0;
+    text-align: left;
+    margin: 0 auto 0 0;
+    overflow: visible
+  }
+
+  .iconButton {
+    pointer-events: all;
+
+    @media (max-width: 999px) {
+      right: 9px
+    }
+  }
+}

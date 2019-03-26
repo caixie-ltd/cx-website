@@ -1,0 +1,92 @@
+.callout {
+  height: 100vh;
+  max-height: 1300px;
+  color: rgba(22, 21, 23, .2);
+  position: relative;
+  overflow: hidden
+}
+
+.callout__container {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  z-index: 2;
+  padding: 3rem;
+  width: 100%
+}
+
+@media (min-width: 1000px) {
+  .callout__container {
+    padding: 8.33333%;
+    width: 83.33333%
+  }
+}
+
+@media (min-width: 1600px) {
+  .callout__container {
+    width: 66.66667%
+  }
+}
+
+.callout__text {
+  font-size: 26px;
+  line-height: 33px;
+  font-weight: 800;
+  font-family: Proxima Nova A, Helvetica, sans-serif;
+  margin-bottom: 5rem;
+  opacity: 0;
+  transition: opacity .5s cubic-bezier(.15, .15, 0, 1)
+}
+
+@media (min-width: 600px) {
+  .callout__text {
+    font-size: 36px;
+    line-height: 44px
+  }
+}
+
+@media (min-width: 1600px) {
+  .callout__text {
+    font-size: 41px;
+    line-height: 55px
+  }
+}
+
+.-visible .callout__text {
+  opacity: 1
+}
+
+@media (max-width: 414px) {
+  .callout__text {
+    font-size: 22px;
+    line-height: 55px
+  }
+}
+
+@media (min-width: 600px) {
+  .callout__text {
+    line-height: 77px
+  }
+}
+
+.callout__underline {
+  padding-bottom: .8rem;
+  border: none;
+  border-bottom: 1px solid;
+  -o-border-image: url(/dist/callout-border-dot.svg) 1 repeat;
+  border-image: url(/dist/callout-border-dot.svg) 1 repeat;
+  color: #fff
+}
+
+.callout__emphasized {
+  color: #fff
+}
+
+.callout__strikethrough {
+  text-decoration: line-through
+}
+
+.callout.beliefs {
+  color: #3f3d41
+}

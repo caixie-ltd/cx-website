@@ -1,0 +1,37 @@
+.custom-cursor {
+    position: fixed;
+    top: -2px;
+    left: -2px;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background-color: var(--color-primary-red);
+    z-index: 100;
+    pointer-events: none
+}
+
+.custom-cursor .default {
+    position: absolute;
+    top: -18px;
+    left: -18px;
+    width: 40px;
+    height: 40px;
+    border: 1px solid var(--color-sub-gray-3);
+    border-radius: 50%;
+    opacity: .2;
+    box-sizing: border-box;
+    z-index: 99
+}
+
+.custom-cursor .hover {
+    position: absolute;
+    top: -38px;
+    left: -38px;
+    width: 80px;
+    height: 80px;
+    background-color: var(--color-sub-gray-4);
+    border-radius: 50%;
+    opacity: .12;
+    z-index: 98;
+    box-sizing: border-box
+}

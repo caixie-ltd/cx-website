@@ -1,0 +1,16 @@
+[
+  {
+    "metaData": {
+      "title": "与我们沟通",
+      "metaTitle": "Baunfire | Make great things with us in Silicon Valley | Web Design, Creative, Brand Strategy",
+      "description": "Baunfire is an award-winning digital agency that designs and develops elevated websites in Silicon Valley. Contact us to build something great together.",
+      "keywords": "baunfire, contact, let's talk, get started, work with us, website, redesign, web design, creative, brand strategy"
+    },
+    "headline": "让我们知道我们能帮上什么忙。.",
+    "subCopy": {
+      "childContentfulRichText": {
+        "html": "<p>您可以随时与我们联系 <a href=\"tel:13488689885\">13488689885</a> 或 <a href=\"mailto:hello@caixie.top\">hello@caixie.top</a>.</p>"
+      }
+    }
+  }
+]

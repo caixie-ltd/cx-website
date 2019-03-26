@@ -1,0 +1,44 @@
+@media (min-width: 1000px) {
+  .imageSlider__cards {
+    margin-left:8.33333%
+  }
+}
+
+.imageSlider__container {
+  padding-bottom: 0
+}
+
+.imageSlider .flickity-prev-next-button.previous {
+  top: calc(50% - 8rem);
+  opacity: 1
+}
+
+.imageSlider .flickity-prev-next-button.next {
+  bottom: calc(50% - 8rem);
+  opacity: 1
+}
+
+.image-slide {
+  width: calc(100% - 3rem);
+  height: 50rem;
+  background-size: cover;
+  background-position: 50%;
+  opacity: .1;
+  transition: opacity .4s cubic-bezier(.15, .15, 0, 1);
+
+  @media (min-width: 600px) {
+    height: 0;
+    padding-bottom: 100%;
+    width: calc(100% - 6rem)
+  }
+
+  @media (min-width: 1000px) {
+    height: 75vh;
+    padding-bottom: 0;
+    width: 90.90909%
+  }
+
+  &.is-selected {
+    opacity: 1
+  }
+}

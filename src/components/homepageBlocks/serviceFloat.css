@@ -1,0 +1,260 @@
+.service-float {
+    opacity: 0;
+    transition: opacity .85s var(--primary-ease);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh
+}
+
+.service-float.show {
+    opacity: 1
+}
+
+.service-float .service-sections {
+    position: relative;
+    height: 650px;
+    -webkit-transform: translate3d(0, -32px, 0);
+    transform: translate3d(0, -32px, 0)
+}
+
+@media screen and (max-width: 1440px) {
+    .service-float .service-sections {
+        -webkit-transform: translate3d(0, -16px, 0);
+        transform: translate3d(0, -16px, 0)
+    }
+}
+
+.service-float .service-title {
+    text-transform: uppercase;
+    -webkit-transform: translate3d(50px, 80px, 0);
+    transform: translate3d(50px, 80px, 0)
+}
+
+@media screen and (max-width: 1440px) {
+    .service-float .service-title {
+        -webkit-transform: translate3d(10px, 120px, 0);
+        transform: translate3d(10px, 120px, 0)
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .service-float .service-title {
+        -webkit-transform: translate3d(10px, 170px, 0);
+        transform: translate3d(10px, 170px, 0)
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .service-float .service-title {
+        margin-bottom: 10px
+    }
+}
+
+.service-float .block-name {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    display: none;
+    -webkit-transform: translate3d(0, calc(-50% - 30px), 0);
+    transform: translate3d(0, calc(-50% - 30px), 0);
+    color: var(--color-sub-white-2)
+}
+
+@media screen and (max-width: 768px) {
+    .service-float .block-name {
+        display: block
+    }
+}
+
+.service-float .key-image {
+    -webkit-clip-path: inset(0 100% 0 0);
+    clip-path: inset(0 100% 0 0);
+    width: 320px;
+    height: 650px;
+    overflow: hidden;
+    -webkit-transform: rotate(30deg) scale(1);
+    transform: rotate(30deg) scale(1);
+    transition: -webkit-clip-path 1.55s var(--primary-ease);
+    transition: clip-path 1.55s var(--primary-ease);
+    transition: clip-path 1.55s var(--primary-ease), -webkit-clip-path 1.55s var(--primary-ease)
+}
+
+.service-float .key-image-container {
+    -webkit-transform: scale(.9);
+    transform: scale(.9);
+    -webkit-transform-origin: center;
+    transform-origin: center
+}
+
+@media screen and (max-width: 1440px) {
+    .service-float .key-image-container {
+        -webkit-transform: scale(.85);
+        transform: scale(.85)
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .service-float .key-image-container {
+        -webkit-transform: scale(.75);
+        transform: scale(.75)
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .service-float .key-image-container {
+        -webkit-transform: scale(.5);
+        transform: scale(.5)
+    }
+}
+
+.service-float .key-image > div {
+    -webkit-transform: rotate(-30deg) translate3d(-15%, -20%, 0) scale(1.1);
+    transform: rotate(-30deg) translate3d(-15%, -20%, 0) scale(1.1);
+    opacity: 0;
+    transition: all 1.75s var(--primary-ease)
+}
+
+.service-float .key-image.show {
+    -webkit-clip-path: inset(0 0 0 0);
+    clip-path: inset(0 0 0 0);
+    transition-delay: .8s
+}
+
+.service-float .key-image.show > div {
+    -webkit-transform: rotate(-30deg) translate3d(-15%, -20%, 0) scale(1);
+    transform: rotate(-30deg) translate3d(-15%, -20%, 0) scale(1);
+    opacity: 1
+}
+
+.service-float .key-image.reverse {
+    -webkit-transform: rotate(-30deg);
+    transform: rotate(-30deg)
+}
+
+.service-float .key-image.reverse > div {
+    -webkit-transform: rotate(30deg) translate3d(-27%, -5%, 0) scale(1);
+    transform: rotate(30deg) translate3d(-27%, -5%, 0) scale(1)
+}
+
+.service-float .key-image.reverse.show {
+    -webkit-transform: rotate(-30deg) scale(1);
+    transform: rotate(-30deg) scale(1)
+}
+
+.service-float .text-block {
+    position: absolute;
+    color: #6f6f6f;
+    z-index: 4
+}
+
+@media screen and (max-width: 768px) {
+    .service-float .text-block {
+        position: unset;
+        -webkit-transform: translate3d(0, -120px, 0);
+        transform: translate3d(0, -120px, 0)
+    }
+}
+
+.service-float .block {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+@media screen and (max-width: 768px) {
+    .service-float .block {
+        height: 570px
+    }
+}
+
+.service-float .bg-text {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 0;
+    right: 0;
+    -webkit-transform: translate3d(0, -50%, 0);
+    transform: translate3d(0, -50%, 0);
+    color: var(--color-sub-white-2);
+    white-space: nowrap;
+    text-align: center
+}
+
+.service-float .bg-text-wrapper {
+    display: flex;
+    justify-content: center
+}
+
+.service-float .point-text {
+    z-index: 3
+}
+
+.service-float .hidden-letter {
+    display: inline-block;
+    visibility: hidden
+}
+
+.service-float .block-name {
+    left: -100px
+}
+
+.service-float .text-block {
+    top: calc(50vh + 20px);
+    right: 60px;
+    max-width: 380px
+}
+
+@media screen and (max-width: 1440px) {
+    .service-float .text-block {
+        top: calc(50vh + 100px);
+        right: 30px
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .service-float .text-block {
+        top: calc(50vh + 100px);
+        right: 10px
+    }
+}
+
+.service-float .more-wrapper {
+    height: 650px
+}
+
+.service-float .services-view-more {
+    margin-top: 40px;
+    position: absolute;
+    top: calc(50vh + 80px);
+    right: 242px
+}
+
+.service-float .services-view-more.enable {
+    pointer-events: all
+}
+
+@media screen and (max-width: 1440px) {
+    .service-float .services-view-more {
+        right: 210px;
+        top: calc(50vh + 160px)
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .service-float .services-view-more {
+        top: calc(50vh + 160px);
+        right: 190px
+    }
+}
+
+@media screen and (max-width: 768) {
+    .service-float .services-view-more {
+        display: none
+    }
+}

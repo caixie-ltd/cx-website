@@ -1,0 +1,16 @@
+.section-indicator {
+    position: fixed;
+    top: 50%;
+    right: 50px;
+    text-transform: uppercase;
+    -webkit-transform: rotate(90deg) translate3d(50%, 0, 0);
+    transform: rotate(90deg) translate3d(50%, 0, 0);
+    -webkit-transform-origin: top right;
+    transform-origin: top right;
+    z-index: 7;
+    transition: color .85s var(--primary-ease)
+}
+
+.section-indicator.on-black, .section-indicator.on-red {
+    color: var(--color-primary-white)
+}

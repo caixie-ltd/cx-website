@@ -1,0 +1,48 @@
+.benefits-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    pointer-events: none;
+    width: 200vw;
+    height: 200vh;
+    -webkit-transform: translate3d(-50vw, -50vh, 0);
+    transform: translate3d(-50vw, -50vh, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0
+}
+
+.benefits-bg.ready {
+    opacity: 1
+}
+
+.benefits-bg .assets {
+    display: flex;
+    align-items: center;
+    height: 100vh
+}
+
+.benefits-bg .value-title {
+    max-width: 36%
+}
+
+.benefits-bg .circle-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.benefits-bg .value-circle {
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-primary-gray);
+    border-radius: 50%
+}

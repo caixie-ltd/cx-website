@@ -1,0 +1,56 @@
+[
+  {
+    "id": "5445ab58-2343-50b8-a00a-2095c119e46e",
+    "metaData": {
+      "title": "首页",
+      "metaTitle": "采撷科技 | 北京科技公司 | 产品战略咨询，网站设计，用户体验设计，技术服务",
+      "description": "Baunfire is an award-winning digital agency that designs and develops elevated websites in Silicon Valley. Say hello to build something great with us.",
+      "keywords": "采撷科技，app定制开发,专业app定制开发,app定制开发团队,多年app定制开发,iOS开发,安卓开发,软件外包,互联网转型,北京软件开发,北京APP开发,北京iOS开发,APP外包,北京安卓开发,北京软件外包, digital agency, digital design, website, redesign, web design, web development, ui, ux, user interface, user experience, interactive, creative, strategy, brand, branding, silicon valley, san jose, bay area, corporate, technology, tech, b2b, b2c"
+    },
+    "heroRibbonText": "我们是 采撷科技",
+    "heroHeadline": "采撷=产品战略咨询公司+用户体验设计公司+技术服务公司",
+    "heroDescription": "我们是一个由产品经理、设计师和开发人员组成的创意团队.",
+    "heroButtonText": "关于我们",
+    "worksTitle": "一些有特色的案例",
+    "worksDescription": "从项目中了解我们更多",
+    "introRibbonText": "一个数字产品服务公司",
+    "introText": "我们为企业提供综合性产品技术创新服务，包含互联网转型和业务线上扩张、数字化运营和效率转化、产品迭代和产业务孵化\f",
+    "servicesTitle": "我们所做的",
+    "servicesDescription": "What we know and do best.",
+    "strategyImage": {
+      "fixed": {
+        "width": 625,
+        "height": 815,
+        "src": "//images.ctfassets.net/eqb1x10m46e1/2yAYwbAOAsF7SGSkhPr1sB/23d90ab36b4cd303f4b10c6173d19a72/homeservicesstrrategy-3.jpg?w=625&q=90",
+        "srcSet": "//images.ctfassets.net/eqb1x10m46e1/2yAYwbAOAsF7SGSkhPr1sB/23d90ab36b4cd303f4b10c6173d19a72/homeservicesstrrategy-3.jpg?w=625&h=815&q=90 1x,\n//images.ctfassets.net/eqb1x10m46e1/2yAYwbAOAsF7SGSkhPr1sB/23d90ab36b4cd303f4b10c6173d19a72/homeservicesstrrategy-3.jpg?w=938&h=1223&q=90 1.5x,\n//images.ctfassets.net/eqb1x10m46e1/2yAYwbAOAsF7SGSkhPr1sB/23d90ab36b4cd303f4b10c6173d19a72/homeservicesstrrategy-3.jpg?w=1250&h=1630&q=90 2x,\n//images.ctfassets.net/eqb1x10m46e1/2yAYwbAOAsF7SGSkhPr1sB/23d90ab36b4cd303f4b10c6173d19a72/homeservicesstrrategy-3.jpg?w=1875&h=2445&q=90 3x",
+        "srcWebp": "//images.ctfassets.net/eqb1x10m46e1/2yAYwbAOAsF7SGSkhPr1sB/23d90ab36b4cd303f4b10c6173d19a72/homeservicesstrrategy-3.jpg?w=625&q=90&fm=webp",
+        "srcSetWebp": "//images.ctfassets.net/eqb1x10m46e1/2yAYwbAOAsF7SGSkhPr1sB/23d90ab36b4cd303f4b10c6173d19a72/homeservicesstrrategy-3.jpg?w=625&h=815&q=90&fm=webp 1x,\n//images.ctfassets.net/eqb1x10m46e1/2yAYwbAOAsF7SGSkhPr1sB/23d90ab36b4cd303f4b10c6173d19a72/homeservicesstrrategy-3.jpg?w=938&h=1223&q=90&fm=webp 1.5x,\n//images.ctfassets.net/eqb1x10m46e1/2yAYwbAOAsF7SGSkhPr1sB/23d90ab36b4cd303f4b10c6173d19a72/homeservicesstrrategy-3.jpg?w=1250&h=1630&q=90&fm=webp 2x,\n//images.ctfassets.net/eqb1x10m46e1/2yAYwbAOAsF7SGSkhPr1sB/23d90ab36b4cd303f4b10c6173d19a72/homeservicesstrrategy-3.jpg?w=1875&h=2445&q=90&fm=webp 3x"
+      }
+    },
+    "strategyDescription": "我们识别业务挑战并开发解决方案来实现您的目标。",
+    "websiteImage": {
+      "fixed": {
+        "width": 625,
+        "height": 815,
+        "src": "//images.ctfassets.net/eqb1x10m46e1/1taCxxe3ep78ZOX5oJGfML/61895d760fc8c18c3cf0b88e6e8d8662/HomeServices-Websites-3.jpg?w=625&q=90",
+        "srcSet": "//images.ctfassets.net/eqb1x10m46e1/1taCxxe3ep78ZOX5oJGfML/61895d760fc8c18c3cf0b88e6e8d8662/HomeServices-Websites-3.jpg?w=625&h=815&q=90 1x,\n//images.ctfassets.net/eqb1x10m46e1/1taCxxe3ep78ZOX5oJGfML/61895d760fc8c18c3cf0b88e6e8d8662/HomeServices-Websites-3.jpg?w=938&h=1223&q=90 1.5x,\n//images.ctfassets.net/eqb1x10m46e1/1taCxxe3ep78ZOX5oJGfML/61895d760fc8c18c3cf0b88e6e8d8662/HomeServices-Websites-3.jpg?w=1250&h=1630&q=90 2x,\n//images.ctfassets.net/eqb1x10m46e1/1taCxxe3ep78ZOX5oJGfML/61895d760fc8c18c3cf0b88e6e8d8662/HomeServices-Websites-3.jpg?w=1875&h=2445&q=90 3x",
+        "srcWebp": "//images.ctfassets.net/eqb1x10m46e1/1taCxxe3ep78ZOX5oJGfML/61895d760fc8c18c3cf0b88e6e8d8662/HomeServices-Websites-3.jpg?w=625&q=90&fm=webp",
+        "srcSetWebp": "//images.ctfassets.net/eqb1x10m46e1/1taCxxe3ep78ZOX5oJGfML/61895d760fc8c18c3cf0b88e6e8d8662/HomeServices-Websites-3.jpg?w=625&h=815&q=90&fm=webp 1x,\n//images.ctfassets.net/eqb1x10m46e1/1taCxxe3ep78ZOX5oJGfML/61895d760fc8c18c3cf0b88e6e8d8662/HomeServices-Websites-3.jpg?w=938&h=1223&q=90&fm=webp 1.5x,\n//images.ctfassets.net/eqb1x10m46e1/1taCxxe3ep78ZOX5oJGfML/61895d760fc8c18c3cf0b88e6e8d8662/HomeServices-Websites-3.jpg?w=1250&h=1630&q=90&fm=webp 2x,\n//images.ctfassets.net/eqb1x10m46e1/1taCxxe3ep78ZOX5oJGfML/61895d760fc8c18c3cf0b88e6e8d8662/HomeServices-Websites-3.jpg?w=1875&h=2445&q=90&fm=webp 3x"
+      }
+    },
+    "websiteDescription": "    我们通过优秀的用户体验设计和开发来建立良好的用户体验\n.",
+    "creativeImage": {
+      "fixed": {
+        "width": 625,
+        "height": 815,
+        "src": "//images.ctfassets.net/eqb1x10m46e1/2jJIDjCitAbPHNvbnfQj7B/12b5bd41a2027b828820e2a7941a2bb5/HomeServices-Creative-3.jpg?w=625&q=90",
+        "srcSet": "//images.ctfassets.net/eqb1x10m46e1/2jJIDjCitAbPHNvbnfQj7B/12b5bd41a2027b828820e2a7941a2bb5/HomeServices-Creative-3.jpg?w=625&h=815&q=90 1x,\n//images.ctfassets.net/eqb1x10m46e1/2jJIDjCitAbPHNvbnfQj7B/12b5bd41a2027b828820e2a7941a2bb5/HomeServices-Creative-3.jpg?w=938&h=1223&q=90 1.5x,\n//images.ctfassets.net/eqb1x10m46e1/2jJIDjCitAbPHNvbnfQj7B/12b5bd41a2027b828820e2a7941a2bb5/HomeServices-Creative-3.jpg?w=1250&h=1630&q=90 2x,\n//images.ctfassets.net/eqb1x10m46e1/2jJIDjCitAbPHNvbnfQj7B/12b5bd41a2027b828820e2a7941a2bb5/HomeServices-Creative-3.jpg?w=1875&h=2445&q=90 3x",
+        "srcWebp": "//images.ctfassets.net/eqb1x10m46e1/2jJIDjCitAbPHNvbnfQj7B/12b5bd41a2027b828820e2a7941a2bb5/HomeServices-Creative-3.jpg?w=625&q=90&fm=webp",
+        "srcSetWebp": "//images.ctfassets.net/eqb1x10m46e1/2jJIDjCitAbPHNvbnfQj7B/12b5bd41a2027b828820e2a7941a2bb5/HomeServices-Creative-3.jpg?w=625&h=815&q=90&fm=webp 1x,\n//images.ctfassets.net/eqb1x10m46e1/2jJIDjCitAbPHNvbnfQj7B/12b5bd41a2027b828820e2a7941a2bb5/HomeServices-Creative-3.jpg?w=938&h=1223&q=90&fm=webp 1.5x,\n//images.ctfassets.net/eqb1x10m46e1/2jJIDjCitAbPHNvbnfQj7B/12b5bd41a2027b828820e2a7941a2bb5/HomeServices-Creative-3.jpg?w=1250&h=1630&q=90&fm=webp 2x,\n//images.ctfassets.net/eqb1x10m46e1/2jJIDjCitAbPHNvbnfQj7B/12b5bd41a2027b828820e2a7941a2bb5/HomeServices-Creative-3.jpg?w=1875&h=2445&q=90&fm=webp 3x"
+      }
+    },
+    "creativeDescription": "我们设计的视觉吸引营销资产，以帮助推动您的品牌前进。",
+    "insightsTitle": "Latest Insights",
+    "insightsDescription": "Our thoughts and perspectives on digital."
+  }
+]

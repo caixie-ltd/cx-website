@@ -1,0 +1,38 @@
+.circle-container {
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: visible;
+    opacity: 0
+}
+
+@media screen and (max-width: 768px) {
+    .circle-container {
+        overflow: hidden
+    }
+}
+
+.circle-container.loaded {
+    opacity: 1
+}
+
+.circle-container .bg-circle {
+    position: fixed;
+    top: -120px;
+    right: calc((100vw - 1200px) / 2 - 180px);
+    pointer-events: none;
+    -webkit-transform: rotate(90deg) scaleX(-1);
+    transform: rotate(90deg) scaleX(-1);
+    transition: stroke .65s ease-out;
+    opacity: .15
+}
+
+@media screen and (max-width: 768px) {
+    .circle-container .bg-circle {
+        right: calc(-50vw - 180px);
+        top: -100px;
+        -webkit-transform: scale(.5);
+        transform: scale(.5)
+    }
+}

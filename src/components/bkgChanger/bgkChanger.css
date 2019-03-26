@@ -1,0 +1,60 @@
+.about .bkg-changer__one, .careers .bkg-changer__one, .home .bkg-changer__one {
+    background: #161517
+}
+
+.bkg-changer {
+    position: fixed;
+    left: 0;
+    top: -180px;
+    width: 100%;
+    height: 100vh;
+    box-sizing: content-box;
+    padding: 200px 0;
+    z-index: 0
+}
+
+@media (min-width: 600px) {
+    .bkg-changer {
+        box-sizing: border-box;
+        padding: 0;
+        width: auto;
+        height: auto;
+        left: -200px;
+        right: -200px;
+        top: -200px;
+        bottom: -200px
+    }
+}
+
+.bkg-changer > div {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute
+}
+
+.bkg-changer__two {
+    transition: opacity .6s cubic-bezier(.15, .15, 0, 1);
+    opacity: 0
+}
+
+.bkg-changer__two.active {
+    opacity: 1
+}
+
+.bkg-changer__text {
+    font-weight: 700;
+    font-family: Proxima Nova A, Helvetica, sans-serif;
+    font-size: 22vw;
+    color: rgba(0, 0, 0, .08);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%)
+}
+
+.spacer-headline {
+    height: 110vw
+}

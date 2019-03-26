@@ -1,0 +1,62 @@
+[
+  {
+    "id": "80490c01-baa5-5483-a873-07ea338fc6b1",
+    "title": "用户体验设计（UI/UX）",
+    "slug": "ui-ux-design"
+  },
+  {
+    "id": "f004524a-1cbb-5a76-8a5e-ae961861b42b",
+    "title": "自适应网站设计",
+    "slug": "responsive-design"
+  },
+  {
+    "id": "220a889e-9668-5472-a70e-17d92b7412e7",
+    "title": "网站开发",
+    "slug": "web-development"
+  },
+  {
+    "id": "1d0fde27-44ec-56af-a271-d60a7a27adba",
+    "title": "内容代运营",
+    "slug": "content-management"
+  },
+  {
+    "id": "77cf6ee2-1cc3-5a2b-b93b-34f4f4d72b95",
+    "title": "营销物料",
+    "slug": "marketing-materials"
+  },
+  {
+    "id": "47b53a33-4695-5460-afc7-3d45e8e7b4ba",
+    "title": "培训",
+    "slug": "presentations"
+  },
+  {
+    "id": "1342101c-5cd5-5f58-9aed-7bc9863e6de7",
+    "title": "企业品牌标识",
+    "slug": "corporate-identity"
+  },
+  {
+    "id": "efe38b37-10a8-5fc7-a7cf-de7c5d0416cf",
+    "title": "内容运营策略",
+    "slug": "content-strategy"
+  },
+  {
+    "id": "abd71785-6e77-5624-ae06-e76a7f13baaf",
+    "title": "动画",
+    "slug": "motion-graphics"
+  },
+  {
+    "id": "0504dcea-b96c-529a-a638-29bb7b936858",
+    "title": "竞品分析",
+    "slug": "competitive-analysis"
+  },
+  {
+    "id": "2bfcbbf8-1ffe-5720-bb96-7de8cf215af8",
+    "title": "行业见解与分析",
+    "slug": "insights-analytics"
+  },
+  {
+    "id": "bde94fdd-538f-513b-926a-0df58f37f9e1",
+    "title": "研究和发现",
+    "slug": "research-discovery"
+  }
+]

@@ -1,0 +1,116 @@
+{
+  "metaData": {
+    "title": "Careers",
+    "metaTitle": "Baunfire | Careers | Digital Agency Jobs in Silicon Valley | Web Design, Development, Creative",
+    "description": "Baunfire is an award-winning digital agency that designs and develops elevated websites. Apply to join our creative team in the heart of San Jose.",
+    "keywords": "baunfire, careers, jobs, openings, positions, interns, internship, hiring, digital agency, design agency, creative agency, web design, web development, creative"
+  },
+  "heroRibbonText": "Careers",
+  "heroHeadline": "Hustle hard. Make money.",
+  "heroDescription": "Work with amazing people to build and shape great brands.",
+  "headImage": {
+    "fluid": {
+      "aspectRatio": 1.4998488969477184,
+      "src": "//images.ctfassets.net/eqb1x10m46e1/4x6h9gUN6S5j8X8titBpCW/2c10151814fb0495a65db0a58fbc0822/Careers-Hero-1.jpg?w=2000&q=90",
+      "srcSet": "//images.ctfassets.net/eqb1x10m46e1/4x6h9gUN6S5j8X8titBpCW/2c10151814fb0495a65db0a58fbc0822/Careers-Hero-1.jpg?w=500&h=333&q=90 500w,\n//images.ctfassets.net/eqb1x10m46e1/4x6h9gUN6S5j8X8titBpCW/2c10151814fb0495a65db0a58fbc0822/Careers-Hero-1.jpg?w=1000&h=667&q=90 1000w,\n//images.ctfassets.net/eqb1x10m46e1/4x6h9gUN6S5j8X8titBpCW/2c10151814fb0495a65db0a58fbc0822/Careers-Hero-1.jpg?w=2000&h=1333&q=90 2000w,\n//images.ctfassets.net/eqb1x10m46e1/4x6h9gUN6S5j8X8titBpCW/2c10151814fb0495a65db0a58fbc0822/Careers-Hero-1.jpg?w=3000&h=2000&q=90 3000w,\n//images.ctfassets.net/eqb1x10m46e1/4x6h9gUN6S5j8X8titBpCW/2c10151814fb0495a65db0a58fbc0822/Careers-Hero-1.jpg?w=4000&h=2667&q=90 4000w,\n//images.ctfassets.net/eqb1x10m46e1/4x6h9gUN6S5j8X8titBpCW/2c10151814fb0495a65db0a58fbc0822/Careers-Hero-1.jpg?w=4963&h=3309&q=90 4963w",
+      "srcWebp": "//images.ctfassets.net/eqb1x10m46e1/4x6h9gUN6S5j8X8titBpCW/2c10151814fb0495a65db0a58fbc0822/Careers-Hero-1.jpg?w=2000&q=90&fm=webp",
+      "srcSetWebp": "//images.ctfassets.net/eqb1x10m46e1/4x6h9gUN6S5j8X8titBpCW/2c10151814fb0495a65db0a58fbc0822/Careers-Hero-1.jpg?w=500&h=333&q=90&fm=webp 500w,\n//images.ctfassets.net/eqb1x10m46e1/4x6h9gUN6S5j8X8titBpCW/2c10151814fb0495a65db0a58fbc0822/Careers-Hero-1.jpg?w=1000&h=667&q=90&fm=webp 1000w,\n//images.ctfassets.net/eqb1x10m46e1/4x6h9gUN6S5j8X8titBpCW/2c10151814fb0495a65db0a58fbc0822/Careers-Hero-1.jpg?w=2000&h=1333&q=90&fm=webp 2000w,\n//images.ctfassets.net/eqb1x10m46e1/4x6h9gUN6S5j8X8titBpCW/2c10151814fb0495a65db0a58fbc0822/Careers-Hero-1.jpg?w=3000&h=2000&q=90&fm=webp 3000w,\n//images.ctfassets.net/eqb1x10m46e1/4x6h9gUN6S5j8X8titBpCW/2c10151814fb0495a65db0a58fbc0822/Careers-Hero-1.jpg?w=4000&h=2667&q=90&fm=webp 4000w,\n//images.ctfassets.net/eqb1x10m46e1/4x6h9gUN6S5j8X8titBpCW/2c10151814fb0495a65db0a58fbc0822/Careers-Hero-1.jpg?w=4963&h=3309&q=90&fm=webp 4963w",
+      "sizes": "(max-width: 2000px) 100vw, 2000px"
+    }
+  },
+  "careerListTitle": "Make great things in Downtown San Jose.",
+  "benefitsTitle": "Work hard, play hard.",
+  "benefits": [
+    {
+      "id": "1df8a727-281b-5b70-a9b4-4f51d6af66d7",
+      "title": "Well-Deserved Pay",
+      "description": "We value hard work and make sure the team is covered with competitive pay and benefits."
+    },
+    {
+      "id": "a6e43681-2cba-575c-9597-8e0ed15e9f50",
+      "title": "Vacation Mode",
+      "description": "We offer paid time off, including holidays, sick days, and vacation days—so treat yourself."
+    },
+    {
+      "id": "3cb7bd25-7473-596a-a074-e9dea2ad3111",
+      "title": "Health is Wealth",
+      "description": "We offer competitive health benefits including medical, dental, and vision so you can be at your best."
+    },
+    {
+      "id": "088bd1d5-06d1-5f5d-a43f-5a0dae56bdca",
+      "title": "Great Atmosphere",
+      "description": "Work alongside likeminded individuals in an environment that fosters creativity and embraces growth."
+    },
+    {
+      "id": "2e3e70ff-be95-5e81-aeec-1a07cd22fb01",
+      "title": "Caffeine Fix",
+      "description": "For times when you need it most, we provide coffee & tea from the Bay Area's finest roasters."
+    },
+    {
+      "id": "61b9ad45-6b99-599f-aa71-a4007be1b66b",
+      "title": "Dim Sum & Boba",
+      "description": "Sometimes cart-style dim sum or a spontaneous boba run is what you need to get through the day."
+    }
+  ],
+  "introRibbonText": "A Team of A-Players",
+  "introText": "Do great work alongside other talented, passionate, and hungry creatives.",
+  "studioTitle": "Our people",
+  "studioDescription": "A talented team of individuals, doing what we love for brands that get it.",
+  "studioImages": [
+    {
+      "id": "2ab18758-7415-5b1b-b66a-ade4ed906fa4",
+      "fluid": {
+        "aspectRatio": 0.7985,
+        "src": "//images.ctfassets.net/eqb1x10m46e1/WHEZyxlylVNBIrTCCrdBt/26aad8b729f60279be70777c37990b9b/Career-Slideshow-01.jpg?w=900&q=90",
+        "srcSet": "//images.ctfassets.net/eqb1x10m46e1/WHEZyxlylVNBIrTCCrdBt/26aad8b729f60279be70777c37990b9b/Career-Slideshow-01.jpg?w=225&h=282&q=90 225w,\n//images.ctfassets.net/eqb1x10m46e1/WHEZyxlylVNBIrTCCrdBt/26aad8b729f60279be70777c37990b9b/Career-Slideshow-01.jpg?w=450&h=564&q=90 450w,\n//images.ctfassets.net/eqb1x10m46e1/WHEZyxlylVNBIrTCCrdBt/26aad8b729f60279be70777c37990b9b/Career-Slideshow-01.jpg?w=900&h=1127&q=90 900w,\n//images.ctfassets.net/eqb1x10m46e1/WHEZyxlylVNBIrTCCrdBt/26aad8b729f60279be70777c37990b9b/Career-Slideshow-01.jpg?w=1350&h=1691&q=90 1350w,\n//images.ctfassets.net/eqb1x10m46e1/WHEZyxlylVNBIrTCCrdBt/26aad8b729f60279be70777c37990b9b/Career-Slideshow-01.jpg?w=1800&h=2254&q=90 1800w,\n//images.ctfassets.net/eqb1x10m46e1/WHEZyxlylVNBIrTCCrdBt/26aad8b729f60279be70777c37990b9b/Career-Slideshow-01.jpg?w=2700&h=3381&q=90 2700w,\n//images.ctfassets.net/eqb1x10m46e1/WHEZyxlylVNBIrTCCrdBt/26aad8b729f60279be70777c37990b9b/Career-Slideshow-01.jpg?w=3194&h=4000&q=90 3194w",
+        "srcWebp": "//images.ctfassets.net/eqb1x10m46e1/WHEZyxlylVNBIrTCCrdBt/26aad8b729f60279be70777c37990b9b/Career-Slideshow-01.jpg?w=900&q=90&fm=webp",
+        "srcSetWebp": "//images.ctfassets.net/eqb1x10m46e1/WHEZyxlylVNBIrTCCrdBt/26aad8b729f60279be70777c37990b9b/Career-Slideshow-01.jpg?w=225&h=282&q=90&fm=webp 225w,\n//images.ctfassets.net/eqb1x10m46e1/WHEZyxlylVNBIrTCCrdBt/26aad8b729f60279be70777c37990b9b/Career-Slideshow-01.jpg?w=450&h=564&q=90&fm=webp 450w,\n//images.ctfassets.net/eqb1x10m46e1/WHEZyxlylVNBIrTCCrdBt/26aad8b729f60279be70777c37990b9b/Career-Slideshow-01.jpg?w=900&h=1127&q=90&fm=webp 900w,\n//images.ctfassets.net/eqb1x10m46e1/WHEZyxlylVNBIrTCCrdBt/26aad8b729f60279be70777c37990b9b/Career-Slideshow-01.jpg?w=1350&h=1691&q=90&fm=webp 1350w,\n//images.ctfassets.net/eqb1x10m46e1/WHEZyxlylVNBIrTCCrdBt/26aad8b729f60279be70777c37990b9b/Career-Slideshow-01.jpg?w=1800&h=2254&q=90&fm=webp 1800w,\n//images.ctfassets.net/eqb1x10m46e1/WHEZyxlylVNBIrTCCrdBt/26aad8b729f60279be70777c37990b9b/Career-Slideshow-01.jpg?w=2700&h=3381&q=90&fm=webp 2700w,\n//images.ctfassets.net/eqb1x10m46e1/WHEZyxlylVNBIrTCCrdBt/26aad8b729f60279be70777c37990b9b/Career-Slideshow-01.jpg?w=3194&h=4000&q=90&fm=webp 3194w",
+        "sizes": "(max-width: 900px) 100vw, 900px"
+      }
+    },
+    {
+      "id": "7a95799f-87b5-504d-8874-5e8b87708c50",
+      "fluid": {
+        "aspectRatio": 0.7985,
+        "src": "//images.ctfassets.net/eqb1x10m46e1/5lSuBpVaDuodoX01zj4xXv/f56f5015e3b64f18944fa3a7093d9882/Career-Slideshow-02.jpg?w=900&q=90",
+        "srcSet": "//images.ctfassets.net/eqb1x10m46e1/5lSuBpVaDuodoX01zj4xXv/f56f5015e3b64f18944fa3a7093d9882/Career-Slideshow-02.jpg?w=225&h=282&q=90 225w,\n//images.ctfassets.net/eqb1x10m46e1/5lSuBpVaDuodoX01zj4xXv/f56f5015e3b64f18944fa3a7093d9882/Career-Slideshow-02.jpg?w=450&h=564&q=90 450w,\n//images.ctfassets.net/eqb1x10m46e1/5lSuBpVaDuodoX01zj4xXv/f56f5015e3b64f18944fa3a7093d9882/Career-Slideshow-02.jpg?w=900&h=1127&q=90 900w,\n//images.ctfassets.net/eqb1x10m46e1/5lSuBpVaDuodoX01zj4xXv/f56f5015e3b64f18944fa3a7093d9882/Career-Slideshow-02.jpg?w=1350&h=1691&q=90 1350w,\n//images.ctfassets.net/eqb1x10m46e1/5lSuBpVaDuodoX01zj4xXv/f56f5015e3b64f18944fa3a7093d9882/Career-Slideshow-02.jpg?w=1800&h=2254&q=90 1800w,\n//images.ctfassets.net/eqb1x10m46e1/5lSuBpVaDuodoX01zj4xXv/f56f5015e3b64f18944fa3a7093d9882/Career-Slideshow-02.jpg?w=2700&h=3381&q=90 2700w,\n//images.ctfassets.net/eqb1x10m46e1/5lSuBpVaDuodoX01zj4xXv/f56f5015e3b64f18944fa3a7093d9882/Career-Slideshow-02.jpg?w=3194&h=4000&q=90 3194w",
+        "srcWebp": "//images.ctfassets.net/eqb1x10m46e1/5lSuBpVaDuodoX01zj4xXv/f56f5015e3b64f18944fa3a7093d9882/Career-Slideshow-02.jpg?w=900&q=90&fm=webp",
+        "srcSetWebp": "//images.ctfassets.net/eqb1x10m46e1/5lSuBpVaDuodoX01zj4xXv/f56f5015e3b64f18944fa3a7093d9882/Career-Slideshow-02.jpg?w=225&h=282&q=90&fm=webp 225w,\n//images.ctfassets.net/eqb1x10m46e1/5lSuBpVaDuodoX01zj4xXv/f56f5015e3b64f18944fa3a7093d9882/Career-Slideshow-02.jpg?w=450&h=564&q=90&fm=webp 450w,\n//images.ctfassets.net/eqb1x10m46e1/5lSuBpVaDuodoX01zj4xXv/f56f5015e3b64f18944fa3a7093d9882/Career-Slideshow-02.jpg?w=900&h=1127&q=90&fm=webp 900w,\n//images.ctfassets.net/eqb1x10m46e1/5lSuBpVaDuodoX01zj4xXv/f56f5015e3b64f18944fa3a7093d9882/Career-Slideshow-02.jpg?w=1350&h=1691&q=90&fm=webp 1350w,\n//images.ctfassets.net/eqb1x10m46e1/5lSuBpVaDuodoX01zj4xXv/f56f5015e3b64f18944fa3a7093d9882/Career-Slideshow-02.jpg?w=1800&h=2254&q=90&fm=webp 1800w,\n//images.ctfassets.net/eqb1x10m46e1/5lSuBpVaDuodoX01zj4xXv/f56f5015e3b64f18944fa3a7093d9882/Career-Slideshow-02.jpg?w=2700&h=3381&q=90&fm=webp 2700w,\n//images.ctfassets.net/eqb1x10m46e1/5lSuBpVaDuodoX01zj4xXv/f56f5015e3b64f18944fa3a7093d9882/Career-Slideshow-02.jpg?w=3194&h=4000&q=90&fm=webp 3194w",
+        "sizes": "(max-width: 900px) 100vw, 900px"
+      }
+    },
+    {
+      "id": "fe31b200-1298-526c-9d12-3945a763e77f",
+      "fluid": {
+        "aspectRatio": 0.7985,
+        "src": "//images.ctfassets.net/eqb1x10m46e1/36pBfPssFQG8u95muZqLbG/786dc80d5a10daa88d8469ca45b48822/Career-Slideshow-03.jpg?w=900&q=90",
+        "srcSet": "//images.ctfassets.net/eqb1x10m46e1/36pBfPssFQG8u95muZqLbG/786dc80d5a10daa88d8469ca45b48822/Career-Slideshow-03.jpg?w=225&h=282&q=90 225w,\n//images.ctfassets.net/eqb1x10m46e1/36pBfPssFQG8u95muZqLbG/786dc80d5a10daa88d8469ca45b48822/Career-Slideshow-03.jpg?w=450&h=564&q=90 450w,\n//images.ctfassets.net/eqb1x10m46e1/36pBfPssFQG8u95muZqLbG/786dc80d5a10daa88d8469ca45b48822/Career-Slideshow-03.jpg?w=900&h=1127&q=90 900w,\n//images.ctfassets.net/eqb1x10m46e1/36pBfPssFQG8u95muZqLbG/786dc80d5a10daa88d8469ca45b48822/Career-Slideshow-03.jpg?w=1350&h=1691&q=90 1350w,\n//images.ctfassets.net/eqb1x10m46e1/36pBfPssFQG8u95muZqLbG/786dc80d5a10daa88d8469ca45b48822/Career-Slideshow-03.jpg?w=1800&h=2254&q=90 1800w,\n//images.ctfassets.net/eqb1x10m46e1/36pBfPssFQG8u95muZqLbG/786dc80d5a10daa88d8469ca45b48822/Career-Slideshow-03.jpg?w=2700&h=3381&q=90 2700w,\n//images.ctfassets.net/eqb1x10m46e1/36pBfPssFQG8u95muZqLbG/786dc80d5a10daa88d8469ca45b48822/Career-Slideshow-03.jpg?w=3194&h=4000&q=90 3194w",
+        "srcWebp": "//images.ctfassets.net/eqb1x10m46e1/36pBfPssFQG8u95muZqLbG/786dc80d5a10daa88d8469ca45b48822/Career-Slideshow-03.jpg?w=900&q=90&fm=webp",
+        "srcSetWebp": "//images.ctfassets.net/eqb1x10m46e1/36pBfPssFQG8u95muZqLbG/786dc80d5a10daa88d8469ca45b48822/Career-Slideshow-03.jpg?w=225&h=282&q=90&fm=webp 225w,\n//images.ctfassets.net/eqb1x10m46e1/36pBfPssFQG8u95muZqLbG/786dc80d5a10daa88d8469ca45b48822/Career-Slideshow-03.jpg?w=450&h=564&q=90&fm=webp 450w,\n//images.ctfassets.net/eqb1x10m46e1/36pBfPssFQG8u95muZqLbG/786dc80d5a10daa88d8469ca45b48822/Career-Slideshow-03.jpg?w=900&h=1127&q=90&fm=webp 900w,\n//images.ctfassets.net/eqb1x10m46e1/36pBfPssFQG8u95muZqLbG/786dc80d5a10daa88d8469ca45b48822/Career-Slideshow-03.jpg?w=1350&h=1691&q=90&fm=webp 1350w,\n//images.ctfassets.net/eqb1x10m46e1/36pBfPssFQG8u95muZqLbG/786dc80d5a10daa88d8469ca45b48822/Career-Slideshow-03.jpg?w=1800&h=2254&q=90&fm=webp 1800w,\n//images.ctfassets.net/eqb1x10m46e1/36pBfPssFQG8u95muZqLbG/786dc80d5a10daa88d8469ca45b48822/Career-Slideshow-03.jpg?w=2700&h=3381&q=90&fm=webp 2700w,\n//images.ctfassets.net/eqb1x10m46e1/36pBfPssFQG8u95muZqLbG/786dc80d5a10daa88d8469ca45b48822/Career-Slideshow-03.jpg?w=3194&h=4000&q=90&fm=webp 3194w",
+        "sizes": "(max-width: 900px) 100vw, 900px"
+      }
+    },
+    {
+      "id": "49a02b99-c1d8-505d-9524-bbb98275c158",
+      "fluid": {
+        "aspectRatio": 0.7985,
+        "src": "//images.ctfassets.net/eqb1x10m46e1/46apykC0uobmTHSSGsVgn5/91843acec037b88f4209e6790f5e2752/Career-Slideshow-04.jpg?w=900&q=90",
+        "srcSet": "//images.ctfassets.net/eqb1x10m46e1/46apykC0uobmTHSSGsVgn5/91843acec037b88f4209e6790f5e2752/Career-Slideshow-04.jpg?w=225&h=282&q=90 225w,\n//images.ctfassets.net/eqb1x10m46e1/46apykC0uobmTHSSGsVgn5/91843acec037b88f4209e6790f5e2752/Career-Slideshow-04.jpg?w=450&h=564&q=90 450w,\n//images.ctfassets.net/eqb1x10m46e1/46apykC0uobmTHSSGsVgn5/91843acec037b88f4209e6790f5e2752/Career-Slideshow-04.jpg?w=900&h=1127&q=90 900w,\n//images.ctfassets.net/eqb1x10m46e1/46apykC0uobmTHSSGsVgn5/91843acec037b88f4209e6790f5e2752/Career-Slideshow-04.jpg?w=1350&h=1691&q=90 1350w,\n//images.ctfassets.net/eqb1x10m46e1/46apykC0uobmTHSSGsVgn5/91843acec037b88f4209e6790f5e2752/Career-Slideshow-04.jpg?w=1800&h=2254&q=90 1800w,\n//images.ctfassets.net/eqb1x10m46e1/46apykC0uobmTHSSGsVgn5/91843acec037b88f4209e6790f5e2752/Career-Slideshow-04.jpg?w=2700&h=3381&q=90 2700w,\n//images.ctfassets.net/eqb1x10m46e1/46apykC0uobmTHSSGsVgn5/91843acec037b88f4209e6790f5e2752/Career-Slideshow-04.jpg?w=3194&h=4000&q=90 3194w",
+        "srcWebp": "//images.ctfassets.net/eqb1x10m46e1/46apykC0uobmTHSSGsVgn5/91843acec037b88f4209e6790f5e2752/Career-Slideshow-04.jpg?w=900&q=90&fm=webp",
+        "srcSetWebp": "//images.ctfassets.net/eqb1x10m46e1/46apykC0uobmTHSSGsVgn5/91843acec037b88f4209e6790f5e2752/Career-Slideshow-04.jpg?w=225&h=282&q=90&fm=webp 225w,\n//images.ctfassets.net/eqb1x10m46e1/46apykC0uobmTHSSGsVgn5/91843acec037b88f4209e6790f5e2752/Career-Slideshow-04.jpg?w=450&h=564&q=90&fm=webp 450w,\n//images.ctfassets.net/eqb1x10m46e1/46apykC0uobmTHSSGsVgn5/91843acec037b88f4209e6790f5e2752/Career-Slideshow-04.jpg?w=900&h=1127&q=90&fm=webp 900w,\n//images.ctfassets.net/eqb1x10m46e1/46apykC0uobmTHSSGsVgn5/91843acec037b88f4209e6790f5e2752/Career-Slideshow-04.jpg?w=1350&h=1691&q=90&fm=webp 1350w,\n//images.ctfassets.net/eqb1x10m46e1/46apykC0uobmTHSSGsVgn5/91843acec037b88f4209e6790f5e2752/Career-Slideshow-04.jpg?w=1800&h=2254&q=90&fm=webp 1800w,\n//images.ctfassets.net/eqb1x10m46e1/46apykC0uobmTHSSGsVgn5/91843acec037b88f4209e6790f5e2752/Career-Slideshow-04.jpg?w=2700&h=3381&q=90&fm=webp 2700w,\n//images.ctfassets.net/eqb1x10m46e1/46apykC0uobmTHSSGsVgn5/91843acec037b88f4209e6790f5e2752/Career-Slideshow-04.jpg?w=3194&h=4000&q=90&fm=webp 3194w",
+        "sizes": "(max-width: 900px) 100vw, 900px"
+      }
+    },
+    {
+      "id": "f5e1241f-aa23-52ae-acb3-945eb41511f3",
+      "fluid": {
+        "aspectRatio": 0.7984886649874056,
+        "src": "//images.ctfassets.net/eqb1x10m46e1/2Ik67aTa7W5yIrEOjJNVkr/738799c88d2ab7d4d538fea1dd1fcd61/Career-Slideshow-05.jpg?w=900&q=90",
+        "srcSet": "//images.ctfassets.net/eqb1x10m46e1/2Ik67aTa7W5yIrEOjJNVkr/738799c88d2ab7d4d538fea1dd1fcd61/Career-Slideshow-05.jpg?w=225&h=282&q=90 225w,\n//images.ctfassets.net/eqb1x10m46e1/2Ik67aTa7W5yIrEOjJNVkr/738799c88d2ab7d4d538fea1dd1fcd61/Career-Slideshow-05.jpg?w=450&h=564&q=90 450w,\n//images.ctfassets.net/eqb1x10m46e1/2Ik67aTa7W5yIrEOjJNVkr/738799c88d2ab7d4d538fea1dd1fcd61/Career-Slideshow-05.jpg?w=900&h=1127&q=90 900w,\n//images.ctfassets.net/eqb1x10m46e1/2Ik67aTa7W5yIrEOjJNVkr/738799c88d2ab7d4d538fea1dd1fcd61/Career-Slideshow-05.jpg?w=1350&h=1691&q=90 1350w,\n//images.ctfassets.net/eqb1x10m46e1/2Ik67aTa7W5yIrEOjJNVkr/738799c88d2ab7d4d538fea1dd1fcd61/Career-Slideshow-05.jpg?w=1800&h=2254&q=90 1800w,\n//images.ctfassets.net/eqb1x10m46e1/2Ik67aTa7W5yIrEOjJNVkr/738799c88d2ab7d4d538fea1dd1fcd61/Career-Slideshow-05.jpg?w=2700&h=3381&q=90 2700w,\n//images.ctfassets.net/eqb1x10m46e1/2Ik67aTa7W5yIrEOjJNVkr/738799c88d2ab7d4d538fea1dd1fcd61/Career-Slideshow-05.jpg?w=2853&h=3573&q=90 2853w",
+        "srcWebp": "//images.ctfassets.net/eqb1x10m46e1/2Ik67aTa7W5yIrEOjJNVkr/738799c88d2ab7d4d538fea1dd1fcd61/Career-Slideshow-05.jpg?w=900&q=90&fm=webp",
+        "srcSetWebp": "//images.ctfassets.net/eqb1x10m46e1/2Ik67aTa7W5yIrEOjJNVkr/738799c88d2ab7d4d538fea1dd1fcd61/Career-Slideshow-05.jpg?w=225&h=282&q=90&fm=webp 225w,\n//images.ctfassets.net/eqb1x10m46e1/2Ik67aTa7W5yIrEOjJNVkr/738799c88d2ab7d4d538fea1dd1fcd61/Career-Slideshow-05.jpg?w=450&h=564&q=90&fm=webp 450w,\n//images.ctfassets.net/eqb1x10m46e1/2Ik67aTa7W5yIrEOjJNVkr/738799c88d2ab7d4d538fea1dd1fcd61/Career-Slideshow-05.jpg?w=900&h=1127&q=90&fm=webp 900w,\n//images.ctfassets.net/eqb1x10m46e1/2Ik67aTa7W5yIrEOjJNVkr/738799c88d2ab7d4d538fea1dd1fcd61/Career-Slideshow-05.jpg?w=1350&h=1691&q=90&fm=webp 1350w,\n//images.ctfassets.net/eqb1x10m46e1/2Ik67aTa7W5yIrEOjJNVkr/738799c88d2ab7d4d538fea1dd1fcd61/Career-Slideshow-05.jpg?w=1800&h=2254&q=90&fm=webp 1800w,\n//images.ctfassets.net/eqb1x10m46e1/2Ik67aTa7W5yIrEOjJNVkr/738799c88d2ab7d4d538fea1dd1fcd61/Career-Slideshow-05.jpg?w=2700&h=3381&q=90&fm=webp 2700w,\n//images.ctfassets.net/eqb1x10m46e1/2Ik67aTa7W5yIrEOjJNVkr/738799c88d2ab7d4d538fea1dd1fcd61/Career-Slideshow-05.jpg?w=2853&h=3573&q=90&fm=webp 2853w",
+        "sizes": "(max-width: 900px) 100vw, 900px"
+      }
+    }
+  ]
+}

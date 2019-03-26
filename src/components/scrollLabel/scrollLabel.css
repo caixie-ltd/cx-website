@@ -1,0 +1,47 @@
+.scroll-label {
+    position: fixed;
+    right: 52px;
+    bottom: 78px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    -webkit-transform: rotate(90deg) translate3d(20px, 0, 0);
+    transform: rotate(90deg) translate3d(20px, 0, 0);
+    -webkit-transform-origin: right top;
+    transform-origin: right top;
+    transition: all .45s var(--primary-ease);
+    z-index: 5
+}
+
+.scroll-label .line {
+    display: inline-block;
+    width: 51px;
+    height: 1px;
+    background-color: #1a1918;
+    margin-right: 12px;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    transition: background-color .45s var(--primary-ease)
+}
+
+.scroll-label .text {
+    opacity: 0
+}
+
+.scroll-label.background-is-black, .scroll-label.background-is-red {
+    color: var(--color-primary-white)
+}
+
+.scroll-label.background-is-black .line, .scroll-label.background-is-red .line {
+    background-color: var(--color-primary-white)
+}
+
+.scroll-label.hidden {
+    opacity: 0
+}
+
+.scroll-label.reveal {
+    opacity: 1
+}
+
+

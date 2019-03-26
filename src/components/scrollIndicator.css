@@ -1,0 +1,15 @@
+.scroll-indicator {
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: var(--color-primary-black-1);
+    width: 4px;
+    height: 100vh;
+    -webkit-transform-origin: left top;
+    transform-origin: left top;
+    z-index: 19
+}
+
+.scroll-indicator.bg-is-black, .scroll-indicator.bg-is-red {
+    background-color: var(--color-primary-white)
+}
