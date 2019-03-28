@@ -1,0 +1,1190 @@
+//colors
+$color_abbey_approx: #525055;
+$color_vulcan_approx: #161517;
+$black_5: rgba(0, 0, 0, 0.05);
+$white: #fff;
+$color_thunderbird_approx: #c62a22;
+$color_downy_approx: #6fd6af;
+$color_pumpkin_approx: #ff7714;
+$color_lipstick_approx: #a7005a;
+$color_flamingo_approx: #f04e30;
+$color_gallery_approx: #eee;
+$alabaster: #fafafa;
+$color_black_haze_approx: #f7f7f8;
+
+//fonts
+$font_0: Proxima Nova A;
+$font_1: Helvetica;
+$font_2: sans-serif;
+$font_3: Proxima Nova;
+$font_4: monospace;
+
+.blogListing {
+  background-color: $color_vulcan_approx;
+  padding: 10rem 8.33333%;
+}
+
+@media(min-width: 600px) {
+  .blogListing {
+    padding: 8.33333%;
+  }
+  .gridSizer {
+    max-width: 38rem;
+    width: calc(50% - 1.6667rem);
+  }
+  .blogCard {
+    max-width: 38rem;
+    width: calc(50% - 1.6667rem);
+
+    &:nth-child(2) {
+      margin-top: 15rem;
+    }
+  }
+  .blogCard__category {
+    font-size: 11px;
+  }
+  .articleCard__title {
+    font-size: 22px;
+    line-height: 33px;
+  }
+  .articleCard__name {
+    font-size: 19px;
+    line-height: 27.5px;
+  }
+  .blurbCard__blurb {
+    font-size: 22px;
+    line-height: 33px;
+  }
+  .blurbCard__date {
+    font-size: 11px;
+  }
+  .blogContainer {
+    padding: 8.33333%;
+  }
+  .blogHero__header {
+    padding: 0 10%;
+  }
+  .blogHero__category {
+    font-size: 11px;
+  }
+  .blogHero__title {
+    font-size: 47px;
+    line-height: 55px;
+  }
+  .blogHero__author {
+    margin-bottom: 8rem;
+  }
+  .blogHero__image {
+    height: 40rem;
+    margin: 0;
+    padding: 0;
+  }
+  .blogContent {
+    padding: 10rem 10% 0 8rem;
+  }
+  .blogShare {
+    display: block;
+    position: absolute;
+    top: 7rem;
+    left: 0;
+    z-index: 1;
+    text-align: right;
+    padding-left: 1rem;
+
+    &.-is-sticky {
+      position: fixed;
+      left: 8.33333%;
+    }
+  }
+  .blogShare__links {
+    margin-right: 9px;
+  }
+  .blogText__heading {
+    font-size: 26px;
+    line-height: 44px;
+  }
+  .blogText__body {
+    font-size: 20px;
+    line-height: 35px;
+  }
+  .blogMarkdown {
+    h1 {
+      font-size: 26px;
+      line-height: 44px;
+    }
+
+    h2 {
+      font-size: 22px;
+      line-height: 33px;
+    }
+
+    h3 {
+      font-size: 19px;
+      line-height: 27.5px;
+    }
+
+    h4 {
+      font-size: 11px;
+    }
+
+    h5 {
+      font-size: 11px;
+    }
+
+    h6 {
+      font-size: 11px;
+    }
+  }
+  .blogQuote {
+    font-size: 26px;
+    line-height: 44px;
+    margin: 18rem 0;
+    padding-left: 4.5rem;
+  }
+  .blogMore {
+    padding: 17rem 8.33333%;
+
+    .blogCard:nth-child(2) {
+      display: flex;
+    }
+  }
+  .blogMore__header {
+    font-size: 26px;
+    line-height: 33px;
+    margin-bottom: 11rem;
+  }
+  .blogNewsletter {
+    padding: 20rem 8.33333%;
+  }
+  .blogNewsletter__header {
+    font-size: 26px;
+    line-height: 33px;
+  }
+}
+
+@media(min-width: 2560px) {
+  .blogListing {
+    padding: 8.33333% 16.66667%;
+  }
+}
+
+.blogGrid {
+  margin: 0 auto;
+}
+
+.gridSizer {
+  min-width: 23.9rem;
+  max-width: 100%;
+  width: 100%;
+}
+
+.blogCard {
+  min-width: 23.9rem;
+  max-width: 100%;
+  width: 100%;
+  display: inline-block;
+  //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+  border-radius: 10px;
+  overflow: hidden;
+  //Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+  box-shadow: 0 9px 19px 0 $black_5;
+  background: $white;
+  margin-bottom: 2rem;
+  padding: 5rem 3rem;
+}
+
+@media(min-width: 1000px) {
+  .gridSizer {
+    width: calc(33.33333% - 1.6667rem);
+  }
+  .blogCard {
+    width: calc(33.33333% - 1.6667rem);
+
+    &:nth-child(4) {
+      margin-top: 13rem;
+    }
+  }
+  .blogHero__image {
+    height: 71rem;
+  }
+  .blogContent {
+    padding: 10rem 12.5% 0 25%;
+  }
+  .blogShare {
+    padding-left: 0;
+  }
+  .blog-image__image.-cover {
+    height: 41rem;
+  }
+  .blogMore .blogCard:nth-child(3) {
+    display: flex;
+  }
+}
+
+@media(min-width: 1600px) {
+  .gridSizer {
+    width: calc(25% - 1.6667rem);
+  }
+  .blogCard {
+    width: calc(25% - 1.6667rem);
+    padding: 5.35rem 6rem 5.35rem 4rem;
+
+    &:nth-child(5) {
+      margin-top: 25rem;
+    }
+  }
+  .blogCard__category {
+    font-size: 12px;
+    letter-spacing: 2.17px;
+    margin-bottom: 5rem;
+  }
+  .articleCard__title {
+    font-size: 26px;
+    line-height: 33px;
+    margin-bottom: 5rem;
+  }
+  .articleCard__snippet {
+    margin-bottom: 6.63rem;
+  }
+  .articleCard__name {
+    font-size: 20px;
+    line-height: 33px;
+  }
+  .blurbCard__blurb {
+    font-size: 26px;
+    line-height: 33px;
+    margin-bottom: 5rem;
+  }
+  .blurbCard__date {
+    font-size: 12px;
+    letter-spacing: 2.17px;
+  }
+  .blogContainer {
+    padding: 8.33333% 16.66667%;
+  }
+  .blogHero__header {
+    padding: 0 12.5%;
+    padding: 0 14.28571%;
+  }
+  .blogHero__category {
+    font-size: 12px;
+    letter-spacing: 2.17px;
+  }
+  .blogHero__title {
+    font-size: 68px;
+    line-height: 77px;
+  }
+  .blogMarkdown {
+    h2 {
+      font-size: 26px;
+      line-height: 33px;
+    }
+
+    h3 {
+      font-size: 20px;
+      line-height: 33px;
+    }
+
+    h4 {
+      font-size: 12px;
+      letter-spacing: 2.17px;
+    }
+
+    h5 {
+      font-size: 12px;
+      letter-spacing: 2.17px;
+    }
+
+    h6 {
+      font-size: 12px;
+      letter-spacing: 2.17px;
+    }
+  }
+  .blogFooter {
+    flex-direction: row;
+  }
+  .blogFooter__author {
+    width: 50%;
+    margin-bottom: 0;
+    border-top: 0;
+    border-bottom: 0;
+  }
+  .blogFooter__authorDescription {
+    width: 24rem;
+  }
+  .blogFooter__share {
+    width: 50%;
+    text-align: right;
+    justifyContent: flex-start;
+  }
+  .blogShare.-is-sticky {
+    left: 16.66667%;
+  }
+  .blogMore .blogCard:nth-child(n + 3) {
+    display: flex;
+  }
+}
+
+@media(min-width: 600px) and(max-width: 767px) {
+  .gridSizer {
+    width: 100%;
+    max-width: 100%;
+  }
+  .blogCard {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+.blogCard__category {
+  font-size: 11px;
+  letter-spacing: 1.83px;
+  line-height: 22px;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin-bottom: 3rem;
+}
+
+@media(max-width: 599px) {
+  .blogCard__category {
+    line-height: 16.5px;
+  }
+  .blurbCard__date {
+    line-height: 16.5px;
+  }
+  .blogHero__category {
+    line-height: 16.5px;
+  }
+  .blogMarkdown {
+    h4 {
+      line-height: 16.5px;
+    }
+
+    h5 {
+      line-height: 16.5px;
+    }
+
+    h6 {
+      line-height: 16.5px;
+    }
+  }
+}
+
+.articleCard__title {
+  font-size: 19px;
+  line-height: 27.5px;
+  font-weight: 800;
+  font-family: $font_0, $font_1, $font_2;
+  margin-bottom: 3rem;
+}
+
+.articleCard__snippet {
+  font-size: 16px;
+  line-height: 27.5px;
+  font-weight: 400;
+  font-family: $font_3, $font_1, $font_2;
+  margin-bottom: 4.5rem;
+}
+
+.articleCard__authorImg {
+  background-size: cover;
+  background-position: center;
+  z-index: 0;
+  width: 5rem;
+  height: 5rem;
+  position: relative;
+  left: -3px;
+  display: inline-block;
+  vertical-align: bottom;
+  //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+  border-radius: 100%;
+}
+
+.articleCard__authorDetails {
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 1.24rem;
+  width: calc(100% - 5rem);
+}
+
+.articleCard__name {
+  font-size: 18px;
+  font-weight: 600;
+  font-family: $font_0, $font_1, $font_2;
+  font-size: 16px !important;
+  line-height: 16px !important;
+}
+
+.articleCard__date {
+  font-family: $font_3, $font_1, $font_2;
+  font-size: 16px;
+  opacity: 0.65;
+  line-height: 27.5px;
+}
+
+.blurbCard {
+  color: $white;
+
+  .blogCard__category {
+    opacity: 0.5;
+  }
+
+  &.-red {
+    background-color: $color_thunderbird_approx;
+  }
+
+  &.-green {
+    background-color: $color_downy_approx;
+  }
+
+  &.-orange {
+    background-color: $color_pumpkin_approx;
+  }
+
+  &.-purple {
+    background-color: $color_lipstick_approx;
+  }
+}
+
+.blurbCard__blurb {
+  font-size: 19px;
+  line-height: 27.5px;
+  font-weight: 800;
+  font-family: $font_0, $font_1, $font_2;
+  font-size: 21px !important;
+  line-height: 28px !important;
+  margin-bottom: 3rem;
+}
+
+.blurbCard__date {
+  font-size: 11px;
+  letter-spacing: 1.83px;
+  line-height: 22px;
+  font-weight: 800;
+  text-transform: uppercase;
+  opacity: 0.5;
+}
+
+.blogArticle {
+}
+
+.blogContainer {
+  padding: 10rem 8.33333%;
+}
+
+@media(min-width: 2048px) {
+  .blogContainer {
+    padding: 8.33333% 20.83333%;
+  }
+  .blogContent {
+    padding: 10rem 14.28571% 0;
+  }
+  .blogShare.-is-sticky {
+    left: 20.83333%;
+  }
+  .blog-image__image.-cover {
+    height: 57rem;
+  }
+}
+
+.blogHero {
+}
+
+.blogHero__header {
+  padding: 3rem 0;
+}
+
+.blogHero__category {
+  font-size: 11px;
+  letter-spacing: 1.83px;
+  line-height: 22px;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin-bottom: 3rem;
+}
+
+.blogHero__title {
+  font-weight: 800;
+  font-family: $font_0, $font_1, $font_2;
+  font-size: 34px;
+  line-height: 44px;
+  margin-bottom: 2.5rem;
+}
+
+.blogHero__author {
+  margin-bottom: 4rem;
+}
+
+.blogHero__authorImg {
+  background-size: cover;
+  background-position: center;
+  z-index: 0;
+  width: 5rem;
+  height: 5rem;
+  position: relative;
+  left: -3px;
+  display: inline-block;
+  vertical-align: bottom;
+  //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+  border-radius: 100%;
+}
+
+.blogHero__authorDetails {
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 1.24rem;
+}
+
+.blogHero__name {
+  font-family: $font_0, $font_1, $font_2;
+  font-weight: 600;
+  font-size: 19px;
+  line-height: 27.5px;
+}
+
+.blogHero__date {
+  font-family: $font_3, $font_1, $font_2;
+  font-weight: 600;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 2.17px;
+  opacity: 0.35;
+}
+
+.blogHero__image {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 0;
+  margin: 0 -12.5%;
+  padding: 0 12.5% 125%;
+  //Instead of the line below you could use @include box-sizing($bs)
+  box-sizing: content-box;
+}
+
+.blogContent {
+  position: relative;
+  padding: 8rem 0;
+}
+
+.blogShare {
+  display: none;
+  opacity: 1;
+  //Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+  transition: opacity 750ms cubic-bezier(0.15, 0.15, 0, 1);
+
+  &.-is-bottom {
+    opacity: 0;
+    top: auto;
+    bottom: 41rem;
+  }
+
+  a {
+    margin-bottom: 1rem;
+    height: 14px;
+    line-height: 14px;
+    padding: 1rem;
+    //Instead of the line below you could use @include box-sizing($bs)
+    box-sizing: content-box;
+  }
+
+  .clapButton {
+    margin-bottom: 1rem;
+  }
+}
+
+.blogShare__links {
+  display: inline-flex;
+  align-items: center;
+  justifyContent: flex-end;
+  flex-direction: column;
+}
+
+@media(max-width: 999px) {
+  .blogShare .clapButton__button {
+    width: 45px;
+    height: 45px;
+  }
+}
+
+.blogBlock {
+  margin: 0 0 7rem 0;
+}
+
+.blogText__heading {
+  font-family: $font_3, $font_1, $font_2;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 33px;
+  margin-bottom: 5rem;
+}
+
+.blogText__body {
+  font-family: $font_3, $font_1, $font_2;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  white-space: pre-line;
+
+  p {
+    margin: 0;
+  }
+
+  a {
+    color: $color_flamingo_approx;
+    text-decoration: underline;
+    color: $color_flamingo_approx;
+    text-decoration: underline;
+  }
+
+  li {
+    list-style: initial;
+    list-style: initial;
+  }
+
+  ol {
+    padding-inline-start: 25px;
+
+    li {
+      list-style-type: decimal;
+      list-style-type: decimal;
+    }
+  }
+
+  ul {
+    padding-inline-start: 25px;
+  }
+}
+
+.blogMarkdown {
+  a {
+    color: $color_flamingo_approx;
+    text-decoration: underline;
+  }
+
+  ol {
+    padding-inline-start: 25px;
+
+    li {
+      list-style-type: decimal;
+    }
+  }
+
+  ul {
+    padding-inline-start: 25px;
+  }
+
+  li {
+    list-style: initial;
+  }
+
+  pre {
+    background: $color_gallery_approx;
+
+    code {
+      display: block;
+      font-family: $font_4;
+    }
+  }
+
+  h1 {
+    font-family: $font_3, $font_1, $font_2;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 33px;
+    font-family: $font_3, $font_1, $font_2;
+    margin-top: 3rem;
+  }
+
+  h2 {
+    font-size: 19px;
+    line-height: 27.5px;
+    font-weight: 800;
+    font-family: $font_0, $font_1, $font_2;
+    font-family: $font_3, $font_1, $font_2;
+    margin-top: 3rem;
+  }
+
+  h3 {
+    font-size: 18px;
+    font-weight: 600;
+    font-family: $font_0, $font_1, $font_2;
+    font-family: $font_3, $font_1, $font_2;
+    margin-top: 3rem;
+  }
+
+  h4 {
+    font-size: 11px;
+    letter-spacing: 1.83px;
+    line-height: 22px;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-family: $font_3, $font_1, $font_2;
+    margin-top: 3rem;
+  }
+
+  h5 {
+    font-size: 11px;
+    letter-spacing: 1.83px;
+    line-height: 22px;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-family: $font_3, $font_1, $font_2;
+    margin-top: 3rem;
+  }
+
+  h6 {
+    font-size: 11px;
+    letter-spacing: 1.83px;
+    line-height: 22px;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-family: $font_3, $font_1, $font_2;
+    margin-top: 3rem;
+  }
+
+  .token.operator {
+    background: none;
+  }
+}
+
+.blog-image__image {
+  width: 100%;
+  height: auto;
+
+  &.-cover {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 31rem;
+  }
+}
+
+.blog-image__caption {
+  font-size: 16px;
+  text-align: center;
+  opacity: 0.65;
+  margin-top: 1rem;
+}
+
+.blog-code {
+  pre {
+    background: $color_gallery_approx;
+
+    code {
+      display: block;
+      font-family: $font_4;
+    }
+  }
+
+  .token.operator {
+    background: none;
+  }
+}
+
+.blogQuote {
+  font-family: $font_3, $font_1, $font_2;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 33px;
+  font-weight: 500;
+  border-left: 1.5px solid $color_flamingo_approx;
+  padding-left: 2rem;
+  margin: 16rem 0;
+}
+
+.blogFooter {
+  display: flex;
+  flex-direction: column;
+}
+
+.blogFooter__author {
+  display: inline-flex;
+  width: 100%;
+  padding: 3rem 1rem;
+  align-items: flex-start;
+  margin-bottom: 3rem;
+  border-top: 1px solid $alabaster;
+  border-bottom: 1px solid $alabaster;
+}
+
+.blogFooter__authorImg {
+  background-size: cover;
+  background-position: center;
+  z-index: 0;
+  min-width: 8rem;
+  height: 8rem;
+  position: relative;
+  left: -3px;
+  display: inline-block;
+  vertical-align: bottom;
+  //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+  border-radius: 100%;
+}
+
+.blogFooter__authorDetails {
+  flex: 1;
+  padding-left: 2rem;
+}
+
+.blogFooter__authorName {
+  font-family: $font_0, $font_1, $font_2;
+  font-weight: 800;
+  font-size: 19px;
+  margin: 0.5rem 0 1rem;
+}
+
+.blogFooter__authorDescription {
+  font-family: $font_3, $font_1, $font_2;
+  font-weight: 400;
+  font-size: 16px;
+  white-space: pre-wrap;
+  opacity: 0.5;
+  line-height: 27.5px;
+}
+
+.blogFooter__share {
+  display: flex;
+  align-items: center;
+  justifyContent: space-between;
+  flex-direction: row-reverse;
+  width: 100%;
+  padding: 0 1rem;
+  text-align: center;
+  margin-bottom: 2rem;
+
+  a {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    padding: 1rem;
+    margin-right: 1rem;
+    //Instead of the line below you could use @include box-sizing($bs)
+    box-sizing: content-box;
+  }
+
+  img {
+    height: 100%;
+    vertical-align: top;
+  }
+
+  .clapButton {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+  }
+
+  .clapButton__button {
+    left: 0;
+    margin-left: 0;
+    margin-right: 1rem;
+  }
+}
+
+.blogMore {
+  padding: 7rem 8.33333%;
+  background-color: $color_black_haze_approx;
+
+  .blogCard {
+    display: none;
+    flex-direction: column;
+    margin-top: 0;
+    margin-right: 2rem;
+    min-width: 28rem;
+
+    &:nth-child(1) {
+      display: flex;
+    }
+  }
+
+  .blogCard__snippet {
+    flex-grow: 1;
+  }
+}
+
+.blogMore__header {
+  font-family: $font_0, $font_1, $font_2;
+  font-weight: 800;
+  font-size: 19px;
+  line-height: 27.5px;
+  margin-top: 0;
+  margin-bottom: 5rem;
+  text-align: center;
+}
+
+.blogMore__container {
+  display: flex;
+  align-items: flex-start;
+  justifyContent: center;
+}
+
+.blogNewsletter {
+  padding: 13.5rem 8.33333%;
+  color: $white;
+  background-color: $color_vulcan_approx;
+  text-align: center;
+  width: 100%;
+}
+
+.blogNewsletter__container {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.blogNewsletter__header {
+  font-size: 19px;
+  line-height: 27.5px;
+  margin-bottom: 5rem;
+  text-align: left;
+}
+
+.blogNewsletter__form {
+  display: flex;
+  width: 100%;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid $white;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.blogNewsletter__input {
+  flex: 1;
+  background: none;
+  border: 0;
+  font-family: $font_0, $font_1, $font_2;
+  font-weight: 600;
+  font-size: 20px;
+  color: $white;
+  line-height: 33px;
+  outline: none;
+
+  &:-ms-input-placeholder {
+    color: $white;
+  }
+}
+
+.blogNewsletter__input::placeholder {
+  color: $white;
+  opacity: 1;
+}
+
+.blogNewsletter__input::-ms-input-placeholder {
+  color: $white;
+}
+
+.blogNewsletter__submit {
+  border: 0;
+  background: none;
+  outline: none;
+  margin-right: 1.5rem;
+  opacity: 1;
+  //Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+  transition: opacity 250ms cubic-bezier(0.15, 0.15, 0, 1);
+  cursor: pointer;
+
+  &:hover {
+    opacity: 0.667;
+  }
+}
+
+.blogNewsletter__submit[disabled] {
+  opacity: 0.333;
+}
+
+.blogNewsletter__arrow {
+  height: 20px;
+}
+
+.blogNewsletter__response {
+  font-family: $font_3, $font_1, $font_2;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1.38px;
+  color: $white;
+  margin-top: 1.5rem;
+
+  &.isError {
+    color: $color_flamingo_approx;
+  }
+}
+
+.perks .callout__text {
+  color: $color_abbey_approx;
+}
+
+.blog .hero {
+  background: $color_vulcan_approx;
+}
+
+//colors
+$color_flamingo_approx: #f04e30;
+$white: #fff;
+
+//fonts
+$font_0: Proxima Nova;
+$font_1: Helvetica;
+$font_2: sans-serif;
+
+//urls
+$url_0: url(/dist/high-five.png);
+
+@keyframes spin-left {
+  0% {
+    //Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+    transform: rotate(0);
+  }
+  100% {
+    //Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+    transform: rotate(-360deg);
+  }
+}
+
+@keyframes spin-right {
+  0% {
+    //Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+    transform: rotate(0);
+  }
+  100% {
+    //Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes shake {
+  0% {
+    //Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+    transform: translateX(0);
+  }
+  100% {
+    //Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+    transform: translateX(0);
+  }
+  50% {
+    //Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+    transform: translateX(2px);
+  }
+}
+
+.clapButton {
+  position: relative;
+}
+
+.clapButton__button {
+  position: relative;
+  display: block;
+  width: 55px;
+  height: 55px;
+  background-color: transparent;
+  border: 0;
+  padding: 0;
+  outline: none;
+  cursor: pointer;
+  margin-bottom: 2rem;
+}
+
+@media(min-width: 1000px) {
+  .clapButton__button {
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 0;
+  }
+  .clapButton__count {
+    text-align: right;
+    font-size: 16px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 0;
+    margin-right: 1rem;
+  }
+}
+
+.clapButton__sprite {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 50%;
+  left: 50%;
+  //Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+  transform: translate(-50%, -50%);
+  background-image: $url_0;
+  background-size: 3400% 200%;
+
+  &.isAlternate {
+    background-position-y: 100%;
+  }
+}
+
+.clapButton__count {
+  width: 45px;
+  font-family: $font_0, $font_1, $font_2;
+  font-weight: 600;
+  font-size: 14px;
+  display: block;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.clapButton__emoji {
+  position: absolute;
+  bottom: calc(100% + 8px);
+  left: 50%;
+  z-index: 1;
+  text-align: center;
+  opacity: 0;
+  //Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+  transform: translate(-50%, 5px);
+  //Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+  transition: transform 250ms cubic-bezier(0.15, 0.15, 0, 1), opacity 250ms cubic-bezier(0.15, 0.15, 0, 1);
+  width: 100px;
+  font-size: 20px;
+  white-space: nowrap;
+
+  &.isShow {
+    opacity: 1;
+    //Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+    transform: translate(-50%, 0);
+  }
+}
+
+.clapButton__tooltip {
+  position: absolute;
+  bottom: calc(100% + 8px);
+  left: 50%;
+  z-index: 1;
+  text-align: center;
+  opacity: 0;
+  //Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+  transform: translate(-50%, 5px);
+  //Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+  transition: transform 250ms cubic-bezier(0.15, 0.15, 0, 1), opacity 250ms cubic-bezier(0.15, 0.15, 0, 1);
+  background-color: $color_flamingo_approx;
+  color: $white;
+  //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+  border-radius: 100px;
+  font-family: $font_0, $font_1, $font_2;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 26px;
+  min-width: 38px;
+  height: 24px;
+
+  &.isShow {
+    opacity: 1;
+    //Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+    transform: translate(-50%, 0);
+  }
+}
+
+.clapButton__tooltip::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: calc(50% - 4px);
+  height: 0;
+  width: 0;
+  border: solid transparent;
+  border-top-color: $color_flamingo_approx;
+  border-width: 4px;
+  pointer-events: none;
+}

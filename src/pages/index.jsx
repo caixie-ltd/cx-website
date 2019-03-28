@@ -15,6 +15,7 @@ import NextUp from "../components/common/nextUp/nextUp"
 import IntroBlock from "../components/indexBlocks/introBlock"
 import cls from "./index.module.scss"
 // import Footer from "../components/footer"
+// import HeroScene from '../components/HeroScene'
 
 const PageTransition = posed.div({
   enter: {
@@ -239,6 +240,7 @@ class IndexPage extends Component {
             updateMomentumScrollValue={this.updateMomentumScrollValue}
             jumpToScrollValue={this.state.jumpToScrollValue}
           >
+
             <div className={`${cls.pageIndex}`}>
               <section className={cls.sectionHero}>
                 <HeroBlock isHome={true}/>

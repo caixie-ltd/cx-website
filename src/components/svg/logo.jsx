@@ -3,6 +3,7 @@ import React from "react"
 const Logo = props => (
   <svg
     viewBox="0 0 23 26" {...props}>
+
     <g data-name="Layer 2">
 
       <path

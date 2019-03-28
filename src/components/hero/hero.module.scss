@@ -3,8 +3,14 @@ $color_1: #fff;
 $font_family_1:"Noto Serif CJK SC", Helvetica, sans-serif;
 
 .hero {
+  background: #161517;
   height: 100vh;
   max-height: 1600px;
+  @media (max-width: 414px) {
+    min-height: 0;
+  }
+}
+.hero__container {
   color: $color_1;
   padding: 8.33333%;
   display: -ms-flexbox;
@@ -14,6 +20,8 @@ $font_family_1:"Noto Serif CJK SC", Helvetica, sans-serif;
   align-items: center;
   position: relative;
   overflow: hidden;
+  height: 100vh;
+  max-height: 1600px;
   @media (max-width: 414px) {
     min-height: 0;
   }

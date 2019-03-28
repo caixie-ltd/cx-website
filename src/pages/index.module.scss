@@ -17,7 +17,7 @@
 
   .sectionHero {
     background: #161517;
-    transition: opacity .65s var(--primary-ease);
+    //transition: opacity .65s var(--primary-ease);
     box-sizing: border-box;
     overflow: hidden;
     height: 100%;
@@ -63,10 +63,10 @@
       background-color: var(--color-primary-red);
       -webkit-transform: scaleX(0);
       transform: scaleX(0);
-      transition: -webkit-transform 1.25s var(--primary-ease);
-      transition: transform 1.25s var(--primary-ease);
-      transition: transform 1.25s var(--primary-ease), -webkit-transform 1.25s var(--primary-ease);
-      -webkit-transform-origin: left;
+      //transition: -webkit-transform 1.25s var(--primary-ease);
+      //transition: transform 1.25s var(--primary-ease);
+      //transition: transform 1.25s var(--primary-ease), -webkit-transform 1.25s var(--primary-ease);
+      //-webkit-transform-origin: left;
       transform-origin: left
     }
 

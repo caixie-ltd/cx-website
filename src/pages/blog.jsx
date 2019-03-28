@@ -216,33 +216,6 @@ class Blog extends Component {
               </section>
             </div>
 
-            {/*
-            <div className="content-container page-insights-landing top-of-page">
-              <div className="insights-list">
-                {insights.map((insight, index) => {
-                  if (index % 2 === 1) {
-                    return (
-                      <Parallax
-                        viewportScroll={momentumScrollValue}
-                        moveRange="200"
-                        key={insight.node.id}
-                        disabledOnMobile
-                      >
-                        <Thumbnail data={insight.node} className="even"/>
-                      </Parallax>
-                    )
-                  } else {
-                    return (
-                      <Thumbnail key={insight.node.id} data={insight.node}/>
-                    )
-                  }
-                })}
-              </div>
-            </div>
-            */}
-            {/*<section ref={this.sectionFooter}>*/}
-            {/*<Footer/>*/}
-            {/*</section>*/}
             <NextUp
               to="/projects"
               text="我们的工作"/>

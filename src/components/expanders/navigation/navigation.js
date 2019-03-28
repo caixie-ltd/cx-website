@@ -9,7 +9,7 @@ export default class Navigation extends Component {
     return (
       <nav className={cls.nav}>
         <a href="/" className={`${cls.navLogo} ${cls.isHome}`}>
-          <img src="/assets/logo-white2.svg" alt="Caixie Logo"/>
+          <img src="/assets/logo-white.svg" alt="Caixie Logo"/>
         </a>
         <ul className={cls.navLinks}>
           <li>

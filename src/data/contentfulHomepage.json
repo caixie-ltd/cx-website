@@ -1486,7 +1486,7 @@
   },
   "contentfulNotFound": {
     "metaData": {
-      "title": "Not Found",
+      "title": "未找到页面",
       "metaTitle": "Not Found",
       "description": "not found",
       "keywords": "not found"
