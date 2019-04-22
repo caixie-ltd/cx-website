@@ -1,0 +1,1067 @@
+[
+  {
+    "id": "1",
+    "order": 10,
+    "type": "H5 Website",
+    "metaData": {
+      "title": "老娘舅春节活动",
+      "metaTitle": "采撷科技 | 老娘舅春节集福活动 网站案例 | H5 网站设计, 用户体验, 营销活动",
+      "description": "总部位于江苏湖州的连销餐饮企业, 老娘舅, 为 2019 新年策划的营销活动系统，基于微信公众平台接口，采用AI图像识别技术，线上线下结合拉新用户，礼品兑换，卡劵奖励等活动.",
+      "keywords": ""
+    },
+    "slug": "chinauff-spring",
+    "project": "老娘舅-春节集福",
+    "services": [
+      "产品策略",
+      "UX",
+      "开发"
+    ],
+    "headline": "老娘舅春节集福",
+    "description": {
+      "description": "与第三方业务公司合作，为客户定制春节集福活动系统,\n支持高并发、分布部署。基于 Nodejs\\MySql\\Redis\\Traefix\\NuxtJS 等技术。"
+    },
+    "keyImage": {
+      "file": {
+        "url": "/assets/case-chinauffSpring-featured.png"
+      }
+    },
+    "thumbnail": {
+      "file": {
+        "url": "/assets/case-chinauffSpring-featured.png",
+        "fileName": "case-chinauffSpring-featured.png",
+        "contentType": "image/png"
+      },
+      "description": "老娘舅春节集福",
+      "fluid": {
+        "src": "/assets/case-chinauffSpring-featured.png",
+        "srcSet": "",
+        "aspectRatio": 0.7486631016042781,
+        "sizes": "(max-width: 840px) 100vw, 840px"
+      }
+    },
+    "images": [
+      {
+        "id": "image-chinauff-spring-1",
+        "file": {
+          "url": "//images.ctfassets.net/eqb1x10m46e1/1mcP6DwpIb2KRGRP6tLInP/f17dbbffec5bbda240011c83adfa403e/1.png",
+          "details": {
+            "image": {
+              "width": 1920,
+              "height": 1200
+            }
+          }
+        }
+      },
+      {
+        "id": "f174fa25-6d67-525a-9a7f-af73419d04dc",
+        "file": {
+          "url": "//images.ctfassets.net/eqb1x10m46e1/7Ay7I58pEAGoq3h4IEnQCm/49c9bee5d896757c4b1de77605a99aa8/2.png",
+          "details": {
+            "image": {
+              "width": 1200,
+              "height": 637
+            }
+          }
+        }
+      },
+      {
+        "id": "987bf646-17cd-5f14-a2b0-24aa99fc93b9",
+        "file": {
+          "url": "//images.ctfassets.net/eqb1x10m46e1/kVK0B0cLBoPcWtmzY9Jl2/b1b3592da5702944d7f15ad94ef3ccb6/3.png",
+          "details": {
+            "image": {
+              "width": 1200,
+              "height": 637
+            }
+          }
+        }
+      },
+      {
+        "id": "026b3225-47bf-50ca-9e81-55ccc939d019",
+        "file": {
+          "url": "//images.ctfassets.net/eqb1x10m46e1/5YApO6wj8aR55vB0OH5Rnv/77e3a3b008145ffdd7ba35c73d74bf59/4.png",
+          "details": {
+            "image": {
+              "width": 1200,
+              "height": 4992
+            }
+          }
+        }
+      },
+      {
+        "id": "94f3e6c2-897a-5939-b7e8-237a033a1948",
+        "file": {
+          "url": "//images.ctfassets.net/eqb1x10m46e1/62njkMcighXcus6RnzpfB6/570f80562b9fe4a6fbcfba1d4b54e6a4/5.png",
+          "details": {
+            "image": {
+              "width": 1200,
+              "height": 1275
+            }
+          }
+        }
+      },
+      {
+        "id": "ba9a528f-4aac-5169-b264-2c6edc553ef4",
+        "file": {
+          "url": "//images.ctfassets.net/eqb1x10m46e1/52lUTEREzf1JfOjZiaMRqO/b9eb653a926337b30daf2b6006ef9bee/6.png",
+          "details": {
+            "image": {
+              "width": 566,
+              "height": 1665
+            }
+          }
+        }
+      },
+      {
+        "id": "4912c049-815d-5a92-88ee-0a72b7a2ff8f",
+        "file": {
+          "url": "//images.ctfassets.net/eqb1x10m46e1/55N1rbt6Q8CaeNbhHqu4Ph/b96dc0effbc7ceb4e041dd5453826720/7.png",
+          "details": {
+            "image": {
+              "width": 566,
+              "height": 2246
+            }
+          }
+        }
+      },
+      {
+        "id": "7c1a5bc0-0a9b-51e3-9493-87bcc329faa9",
+        "file": {
+          "url": "//images.ctfassets.net/eqb1x10m46e1/6jegSbbMdaRpdkEiK03Sk9/caaf66a8df9e8359190563f8eee4570f/8.png",
+          "details": {
+            "image": {
+              "width": 1066,
+              "height": 694
+            }
+          }
+        }
+      },
+      {
+        "id": "2d7a88f2-e991-5f2f-a32b-5c6a90f017fa",
+        "file": {
+          "url": "//images.ctfassets.net/eqb1x10m46e1/6Rq9llP7QieM5PoQN2dl4q/02c7013c7ff9cc8bfc663aea187c0656/9.png",
+          "details": {
+            "image": {
+              "width": 504,
+              "height": 279
+            }
+          }
+        }
+      },
+      {
+        "id": "93b8a964-14cc-5714-9ffd-895e4aea85f4",
+        "file": {
+          "url": "//images.ctfassets.net/eqb1x10m46e1/2HPS4tHKLansEL5IrTQpGF/cffa8847f348fe53f56204447baf9f14/10.png",
+          "details": {
+            "image": {
+              "width": 1920,
+              "height": 1200
+            }
+          }
+        }
+      }
+    ],
+    "mobileImage": {
+      "file": {
+        "url": "//images.ctfassets.net/eqb1x10m46e1/6ff8e7xFlpXhbmce6toj0W/51813dac920212d835a10326c2a3730a/mobile.png",
+        "details": {
+          "image": {
+            "width": 640,
+            "height": 681
+          }
+        }
+      }
+    },
+    "mobileImages": [
+      {
+        "id": "5ac9dea9-1d2d-51d4-a523-bbf81cd41fea",
+        "file": {
+          "url": "//images.ctfassets.net/eqb1x10m46e1/4aLcWQPKYJ9iBNR4rBhNTw/0a2c27d5cbc26836335a209100e7da8e/mobile1.png",
+          "details": {
+            "image": {
+              "width": 400,
+              "height": 680
+            }
+          }
+        }
+      },
+      {
+        "id": "a01da8fe-2ac6-5996-8f88-2afcd2630acf",
+        "file": {
+          "url": "//images.ctfassets.net/eqb1x10m46e1/7x17ZpYYRljKavLNhlY6fq/6abc596fb70a7218a5c22ce13bda658e/mobile2.png",
+          "details": {
+            "image": {
+              "width": 400,
+              "height": 680
+            }
+          }
+        }
+      },
+      {
+        "id": "2866a3cc-28bd-566f-8ea3-15d3a8c31163",
+        "file": {
+          "url": "//images.ctfassets.net/eqb1x10m46e1/29JdC4SPGBCTSXn0Z9banc/36c807298f00636d594a9aba95ffa9f8/mobile3.png",
+          "details": {
+            "image": {
+              "width": 400,
+              "height": 680
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "aed61ff4-70d2-5bf3-9a3f-5302393dfc7f",
+    "order": 15,
+    "type": "H5 Website",
+    "metaData": {
+      "title": "Arlo",
+      "metaTitle": "Baunfire | Arlo Website Case Study | Web Design, User Experience, eCommerce",
+      "description": "Arlo looked to Baunfire to build a user-friendly eCommerce website, optimized for engagement and conversion. Explore the case study here.",
+      "keywords": "baunfire, arlo, case study, website, web design, web development, ui, ux, user interface, user experience, interactive, ecommerce, ecomm, digital design, digital strategy, brand strategy, marketing, creative",
+      "ogImage": {
+        "file": {
+          "url": "//images.ctfassets.net/eqb1x10m46e1/6VwRMVYNRSZhDU35pjy4zI/e3776db444778620944ad93eb21bd204/06_Arlo.jpg"
+        }
+      }
+    },
+    "slug": "arlo",
+    "project": "Arlo",
+    "service": "Website Design & User Experience",
+    "role": [
+      "eCommerce",
+      "Design Direction",
+      "Content Strategy"
+    ],
+    "headline": "Redesigning the smart home leader’s website",
+    "description": {
+      "description": "Arlo sets the standard for smart home technology, bringing together modern design, wireless connectivity, and cloud infrastructure to create a seamless platform for its customers. The brand looked to Baunfire to build a user-friendly website, optimized for engagement and conversion.\n\nThe ask for this project was to develop a flexible and intuitive design system online that could be easily maintained by their internal content management team. We achieved this by designing a simple grid layout with the ability to combine various modules for each page."
+    },
+    "keyImage": {
+      "file": {
+        "url": "//images.ctfassets.net/eqb1x10m46e1/4UKPYB2c6wavtbLFjBBRa/49ab4a344a729e5434ce8eb739f27990/detail_arlo.jpg"
+      }
+    },
+    "thumbnail": {
+      "file": {
+        "url": "//images.ctfassets.net/eqb1x10m46e1/477EnlyHcLyEkA7a5XCQDK/afc633d87118a493e00ec3218cfdbfc6/arlo.jpg",
+        "fileName": "arlo.jpg",
+        "contentType": "image/jpeg"
+      },
+      "description": "",
+      "fluid": {
+        "src": "//images.ctfassets.net/eqb1x10m46e1/477EnlyHcLyEkA7a5XCQDK/afc633d87118a493e00ec3218cfdbfc6/arlo.jpg?w=840&q=90",
+        "srcSet": "//images.ctfassets.net/eqb1x10m46e1/477EnlyHcLyEkA7a5XCQDK/afc633d87118a493e00ec3218cfdbfc6/arlo.jpg?w=210&h=281&q=90 210w,\n//images.ctfassets.net/eqb1x10m46e1/477EnlyHcLyEkA7a5XCQDK/afc633d87118a493e00ec3218cfdbfc6/arlo.jpg?w=420&h=561&q=90 420w,\n//images.ctfassets.net/eqb1x10m46e1/477EnlyHcLyEkA7a5XCQDK/afc633d87118a493e00ec3218cfdbfc6/arlo.jpg?w=840&h=1122&q=90 840w",
+        "aspectRatio": 0.7486631016042781,
+        "srcWebp": "//images.ctfassets.net/eqb1x10m46e1/477EnlyHcLyEkA7a5XCQDK/afc633d87118a493e00ec3218cfdbfc6/arlo.jpg?w=840&q=90&fm=webp",
+        "srcSetWebp": "//images.ctfassets.net/eqb1x10m46e1/477EnlyHcLyEkA7a5XCQDK/afc633d87118a493e00ec3218cfdbfc6/arlo.jpg?w=210&h=281&q=90&fm=webp 210w,\n//images.ctfassets.net/eqb1x10m46e1/477EnlyHcLyEkA7a5XCQDK/afc633d87118a493e00ec3218cfdbfc6/arlo.jpg?w=420&h=561&q=90&fm=webp 420w,\n//images.ctfassets.net/eqb1x10m46e1/477EnlyHcLyEkA7a5XCQDK/afc633d87118a493e00ec3218cfdbfc6/arlo.jpg?w=840&h=1122&q=90&fm=webp 840w",
+        "sizes": "(max-width: 840px) 100vw, 840px"
+      }
+    },
+    "images": [
+      {
+        "id": "b50b4e0e-6a92-5bdd-9c93-c7f4d618068c",
+        "file": {
+          "url": "//images.ctfassets.net/eqb1x10m46e1/1s3Lez9QBaV94ZHHGIxCmH/3bae6884897f3253579eb4ffc5a51478/image5.png",
+          "details": {
+            "image": {
+              "width": 1920,
+              "height": 1200
+            }
+          }
+        }
+      },
+      {
+        "id": "77a82e4b-0352-5c14-94af-8dbf90214047",
+        "file": {
+          "url": "//images.ctfassets.net/eqb1x10m46e1/9isJpwFslHFFqUstIJ3p9/15e8d06c1a83b7c7c6bb99e6664bc8a7/image1.png",
+          "details": {
+            "image": {
+              "width": 1200,
+              "height": 4422
+            }
+          }
+        }
+      },
+      {
+        "id": "0f037569-aecf-52b0-b4fa-30e6b951874f",
+        "file": {
+          "url": "//images.ctfassets.net/eqb1x10m46e1/12BLVu7LvnxmS5yuoy2gx6/7dd0ced651661af367be4543ce107e7c/image2.png",
+          "details": {
+            "image": {
+              "width": 1200,
+              "height": 6874
+            }
+          }
+        }
+      },
+      {
+        "id": "828efb13-8e04-58de-83ca-0c122337e986",
+        "file": {
+          "url": "//images.ctfassets.net/eqb1x10m46e1/6NXHsDGcJ6kLqTnqx59iJY/7909138afec71703bf3bbaf57ca5e2f0/image3.png",
+          "details": {
+            "image": {
+              "width": 566,
+              "height": 966
+            }
+          }
+        }
+      },
+      {
+        "id": "b6c1d813-e127-5e53-8e9b-0db8ac9ab1d8",
+        "file": {
+          "url": "//images.ctfassets.net/eqb1x10m46e1/4cOZTB7QIU8mwjTeusGnfA/d9d943adcd5ed07c1356bfd05e95b041/image4.png",
+          "details": {
+            "image": {
+              "width": 566,
+              "height": 1556
+            }
+          }
+        }
+      },
+      {
+        "id": "ab3d79b7-4868-5310-9180-04ec02bf724e",
+        "file": {
+          "url": "//images.ctfassets.net/eqb1x10m46e1/2T0kjWGTtUqsSAswNBBf9w/f52393ef246871931276ba89a5880c8c/image0.jpg",
+          "details": {
+            "image": {
+              "width": 1920,
+              "height": 1200
+            }
+          }
+        }
+      }
+    ],
+    "mobileImage": {
+      "file": {
+        "url": "//images.ctfassets.net/eqb1x10m46e1/3jzkUpomq42SxeKJzgGhQD/6d8df24164338df8b0bc99132e5e2e0f/mobile.png",
+        "details": {
+          "image": {
+            "width": 640,
+            "height": 681
+          }
+        }
+      }
+    },
+    "mobileImages": [
+      {
+        "id": "c394c0e2-2cff-577e-8b5a-bfc5dc902f72",
+        "file": {
+          "url": "//images.ctfassets.net/eqb1x10m46e1/aRgYkMhtJct9h2Hh5P3VY/0491d83c358d127e8f4322ddba6d47e5/arlo_02.jpg",
+          "details": {
+            "image": {
+              "width": 400,
+              "height": 680
+            }
+          }
+        }
+      },
+      {
+        "id": "2b16b334-6a01-5ba5-82f0-f142af91f5c5",
+        "file": {
+          "url": "//images.ctfassets.net/eqb1x10m46e1/6NUZjAOgP2S1qMihpjzGo7/90dfc736cb0fc8cc5757cae881b2b924/arlo_0.jpg",
+          "details": {
+            "image": {
+              "width": 400,
+              "height": 680
+            }
+          }
+        }
+      },
+      {
+        "id": "46dc30f4-88a4-595e-82c3-ac17983b50ba",
+        "file": {
+          "url": "//images.ctfassets.net/eqb1x10m46e1/5R5tg19eLQeKUzATkuXCcg/2dd618706665f5782fc4ef451faa85e6/arlo_03.jpg",
+          "details": {
+            "image": {
+              "width": 400,
+              "height": 680
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "37e07e88-f6f5-5b0a-96af-de317f294c71",
+    "order": 30,
+    "type": "H5 Website",
+    "metaData": {
+      "title": "goTenna",
+      "metaTitle": "Baunfire | goTenna Website Case Study | Web Design, User Experience, eCommerce",
+      "description": "goTenna reached out to Baunfire to redesign their eCommerce website for both their consumer and enterprise business units. Explore the case study here.",
+      "keywords": "baunfire, gotenna, case study, website, web design, ui, ux, user interface, user experience, interactive, ecommerce, ecomm, digital design, digital strategy, brand strategy, marketing, creative",
+      "ogImage": {
+        "file": {
+          "url": "//images.ctfassets.net/eqb1x10m46e1/33iHSzpTfWu64bJLRytf86/9ea8d6db984145450846a9b03936fa6d/02_gotenna.jpg"
+        }
+      }
+    },
+    "slug": "gotenna",
+    "project": "goTenna",
+    "service": "Website Design & User Experience",
+    "role": [
+      "eCommerce",
+      "Design Direction",
+      "Content Strategy"
+    ],
+    "headline": "An elevated eCommerce experience",
+    "description": {
+      "description": "goTenna is the industry-leading communications company behind the world’s first people-powered mesh network. Whether on a hike, at a concert, or in the field, their reliable line of devices keeps users connected — no cell phones, wifi, or satellites required.\n\nTheir team in Brooklyn reached out to Baunfire to redesign their eCommerce flagship website for both their consumer and enterprise business units. Their goal was to streamline each path to purchase through effective brand storytelling and elevated product presentation."
+    },
+    "keyImage": {
+      "file": {
+        "url": "//images.ctfassets.net/eqb1x10m46e1/3VRjJT7prEZWAHDsTNWJ7l/43c9a689131b344a79f7ff091a688086/detail_gotenna.jpg"
+      }
+    },
+    "thumbnail": {
+      "file": {
+        "url": "//images.ctfassets.net/eqb1x10m46e1/3s30HCgvSNHA4YHXtGtBEm/14d539f14252a86829dd004491e40ac0/work_thumbnail_02__1_.jpg",
+        "fileName": "work_thumbnail_02 (1).jpg",
+        "contentType": "image/jpeg"
+      },
+      "description": "",
+      "fluid": {
+        "src": "//images.ctfassets.net/eqb1x10m46e1/3s30HCgvSNHA4YHXtGtBEm/14d539f14252a86829dd004491e40ac0/work_thumbnail_02__1_.jpg?w=840&q=90",
+        "srcSet": "//images.ctfassets.net/eqb1x10m46e1/3s30HCgvSNHA4YHXtGtBEm/14d539f14252a86829dd004491e40ac0/work_thumbnail_02__1_.jpg?w=210&h=281&q=90 210w,\n//images.ctfassets.net/eqb1x10m46e1/3s30HCgvSNHA4YHXtGtBEm/14d539f14252a86829dd004491e40ac0/work_thumbnail_02__1_.jpg?w=420&h=561&q=90 420w,\n//images.ctfassets.net/eqb1x10m46e1/3s30HCgvSNHA4YHXtGtBEm/14d539f14252a86829dd004491e40ac0/work_thumbnail_02__1_.jpg?w=840&h=1122&q=90 840w",
+        "aspectRatio": 0.7486631016042781,
+        "srcWebp": "//images.ctfassets.net/eqb1x10m46e1/3s30HCgvSNHA4YHXtGtBEm/14d539f14252a86829dd004491e40ac0/work_thumbnail_02__1_.jpg?w=840&q=90&fm=webp",
+        "srcSetWebp": "//images.ctfassets.net/eqb1x10m46e1/3s30HCgvSNHA4YHXtGtBEm/14d539f14252a86829dd004491e40ac0/work_thumbnail_02__1_.jpg?w=210&h=281&q=90&fm=webp 210w,\n//images.ctfassets.net/eqb1x10m46e1/3s30HCgvSNHA4YHXtGtBEm/14d539f14252a86829dd004491e40ac0/work_thumbnail_02__1_.jpg?w=420&h=561&q=90&fm=webp 420w,\n//images.ctfassets.net/eqb1x10m46e1/3s30HCgvSNHA4YHXtGtBEm/14d539f14252a86829dd004491e40ac0/work_thumbnail_02__1_.jpg?w=840&h=1122&q=90&fm=webp 840w",
+        "sizes": "(max-width: 840px) 100vw, 840px"
+      }
+    },
+    "images": [
+      {
+        "id": "a6448d10-da16-561d-962f-84430dc2bfcf",
+        "file": {
+          "url": "//images.ctfassets.net/eqb1x10m46e1/1DvD0IXGs2fDDnU4ygZmFH/932f1b5870deeffaabe4b13d673052aa/image0.png",
+          "details": {
+            "image": {
+              "width": 1920,
+              "height": 1200
+            }
+          }
+        }
+      },
+      {
+        "id": "2d8e822d-ad68-5b8e-b4d8-2715addc6140",
+        "file": {
+          "url": "//images.ctfassets.net/eqb1x10m46e1/53rSqyDHGUfKAyBnqLH7V6/824b2c69d5018c8690574e7e8a4a97b0/image1.png",
+          "details": {
+            "image": {
+              "width": 1200,
+              "height": 7907
+            }
+          }
+        }
+      },
+      {
+        "id": "69ac7def-3594-5b09-ab67-ff7abc243e3d",
+        "file": {
+          "url": "//images.ctfassets.net/eqb1x10m46e1/7rSrt1FbKwqiCrdQ9CZ9O/e4ada1eb245fb120ccd5f9d7bdd9d9ff/image2.png",
+          "details": {
+            "image": {
+              "width": 1200,
+              "height": 3095
+            }
+          }
+        }
+      },
+      {
+        "id": "06874e30-904e-5296-8238-2ea410a0fe20",
+        "file": {
+          "url": "//images.ctfassets.net/eqb1x10m46e1/4ftoZBfGpvk2MeE8D78aPx/06ec0d419e75ba6eec684cb3dc1d40dd/image3.png",
+          "details": {
+            "image": {
+              "width": 1200,
+              "height": 686
+            }
+          }
+        }
+      },
+      {
+        "id": "852787ec-b319-573f-9c4c-95bd0701c176",
+        "file": {
+          "url": "//images.ctfassets.net/eqb1x10m46e1/6hmcjbFjg3mx92Me1P9yEM/f7eaed9465210930176edbb28f0baea0/image4.png",
+          "details": {
+            "image": {
+              "width": 566,
+              "height": 1493
+            }
+          }
+        }
+      },
+      {
+        "id": "89669f84-0a59-5e7f-9678-a88a472da6cf",
+        "file": {
+          "url": "//images.ctfassets.net/eqb1x10m46e1/7qCU51WmBF0ofQOodGzcvJ/3f2d0d5244351b9acc6eadf56d2acf50/image5.png",
+          "details": {
+            "image": {
+              "width": 566,
+              "height": 2074
+            }
+          }
+        }
+      },
+      {
+        "id": "31eb9025-65bf-5f42-a019-6e7b680230fe",
+        "file": {
+          "url": "//images.ctfassets.net/eqb1x10m46e1/rLvZzZ75sWnnCOrxL0FEX/3f2fdec429a955d70174554a5401dccd/image6.png",
+          "details": {
+            "image": {
+              "width": 1920,
+              "height": 1200
+            }
+          }
+        }
+      }
+    ],
+    "mobileImage": {
+      "file": {
+        "url": "//images.ctfassets.net/eqb1x10m46e1/707oLYAfKiT0iGt0vLl7g1/36b476710168697573539d428ffae7e1/mobile.png",
+        "details": {
+          "image": {
+            "width": 640,
+            "height": 681
+          }
+        }
+      }
+    },
+    "mobileImages": [
+      {
+        "id": "2f804a55-9e53-5bf9-905f-7b901d1899ed",
+        "file": {
+          "url": "//images.ctfassets.net/eqb1x10m46e1/5NdzAZ0kbdCe88BCJeFCx7/46578f11efd504bae0b2de115d107a0e/gotenna_02.jpg",
+          "details": {
+            "image": {
+              "width": 400,
+              "height": 680
+            }
+          }
+        }
+      },
+      {
+        "id": "5298688e-9e23-5d40-b7bb-fa0af0991846",
+        "file": {
+          "url": "//images.ctfassets.net/eqb1x10m46e1/4pHBXis0hhPf2cqMKaQP72/a6c965db4fc205b0c468dd2e15e4100c/gotenna_01.jpg",
+          "details": {
+            "image": {
+              "width": 400,
+              "height": 680
+            }
+          }
+        }
+      },
+      {
+        "id": "73976b2f-3326-58c0-b3b7-658159cad301",
+        "file": {
+          "url": "//images.ctfassets.net/eqb1x10m46e1/6731VNrCa6lXBHOnwYH2tK/b1e064e0bc16022cd0d3c225de54d3f1/gotenna_03.jpg",
+          "details": {
+            "image": {
+              "width": 400,
+              "height": 680
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "b51536b6-4f10-5106-953d-0f3e3691b00b",
+    "order": 35,
+    "type": "H5 Website",
+    "metaData": {
+      "title": "Netgear",
+      "metaTitle": "Baunfire | Netgear Website Case Study | Web Design, User Experience, eCommerce",
+      "description": "Netgear reached out to Baunfire to help drive user traffic, engagement, and conversion with an all-new corporate website. Explore the case study here.",
+      "keywords": "baunfire, netgear, case study, website, web design, ui, ux, user interface, user experience, interactive, ecommerce, ecomm, digital design, digital strategy, brand strategy, marketing, creative",
+      "ogImage": {
+        "file": {
+          "url": "//images.ctfassets.net/eqb1x10m46e1/5eE7EEH6A5flH4dwuGcbz8/91a1bdfef45e6241afd40d96ede79f06/04_netgear.jpg"
+        }
+      }
+    },
+    "slug": "netgear",
+    "project": "Netgear",
+    "service": "Website Design & User Experience",
+    "role": [
+      "Design Direction",
+      "Content Strategy",
+      "Visual Style Guide"
+    ],
+    "headline": "A modernized web presence for the networking leader",
+    "description": {
+      "description": "Netgear is the global leader in computer networking solutions, widely recognized for its line of internet routers and smart home devices. The company continues to dominate the market, with business segments spanning retail, commercial, and service providers.\n\nHeadquartered in Silicon Valley, the digital team at Netgear reached out to Baunfire to elevate and modernize their flagship website. Their goal: drive traffic, engagement, and conversion online by developing an all-new visual language and improved user journey."
+    },
+    "keyImage": {
+      "file": {
+        "url": "//images.ctfassets.net/eqb1x10m46e1/KTI5joClsySjQFegepwom/d41b359c8bfc3c696ab35224c67f1ba4/detail_netgear.jpg"
+      }
+    },
+    "thumbnail": {
+      "file": {
+        "url": "//images.ctfassets.net/eqb1x10m46e1/2wRNHwKgtUM5Hyl4boeVfD/778ecbfc8c13736ce6fc64b5688f4763/netgear.jpg",
+        "fileName": "netgear.jpg",
+        "contentType": "image/jpeg"
+      },
+      "description": "",
+      "fluid": {
+        "src": "//images.ctfassets.net/eqb1x10m46e1/2wRNHwKgtUM5Hyl4boeVfD/778ecbfc8c13736ce6fc64b5688f4763/netgear.jpg?w=840&q=90",
+        "srcSet": "//images.ctfassets.net/eqb1x10m46e1/2wRNHwKgtUM5Hyl4boeVfD/778ecbfc8c13736ce6fc64b5688f4763/netgear.jpg?w=210&h=281&q=90 210w,\n//images.ctfassets.net/eqb1x10m46e1/2wRNHwKgtUM5Hyl4boeVfD/778ecbfc8c13736ce6fc64b5688f4763/netgear.jpg?w=420&h=561&q=90 420w,\n//images.ctfassets.net/eqb1x10m46e1/2wRNHwKgtUM5Hyl4boeVfD/778ecbfc8c13736ce6fc64b5688f4763/netgear.jpg?w=840&h=1122&q=90 840w",
+        "aspectRatio": 0.7486631016042781,
+        "srcWebp": "//images.ctfassets.net/eqb1x10m46e1/2wRNHwKgtUM5Hyl4boeVfD/778ecbfc8c13736ce6fc64b5688f4763/netgear.jpg?w=840&q=90&fm=webp",
+        "srcSetWebp": "//images.ctfassets.net/eqb1x10m46e1/2wRNHwKgtUM5Hyl4boeVfD/778ecbfc8c13736ce6fc64b5688f4763/netgear.jpg?w=210&h=281&q=90&fm=webp 210w,\n//images.ctfassets.net/eqb1x10m46e1/2wRNHwKgtUM5Hyl4boeVfD/778ecbfc8c13736ce6fc64b5688f4763/netgear.jpg?w=420&h=561&q=90&fm=webp 420w,\n//images.ctfassets.net/eqb1x10m46e1/2wRNHwKgtUM5Hyl4boeVfD/778ecbfc8c13736ce6fc64b5688f4763/netgear.jpg?w=840&h=1122&q=90&fm=webp 840w",
+        "sizes": "(max-width: 840px) 100vw, 840px"
+      }
+    },
+    "images": [
+      {
+        "id": "fc54aa1f-7e63-5681-8858-1bdbfc05059b",
+        "file": {
+          "url": "//images.ctfassets.net/eqb1x10m46e1/2pJzMQ8cXijJ7g3SnbcI0s/9eae17f6c98a1de3a6f1a9b8cc9f9dbe/image0.png",
+          "details": {
+            "image": {
+              "width": 1200,
+              "height": 665
+            }
+          }
+        }
+      },
+      {
+        "id": "4b751510-b4bd-5bf8-b7da-081ae6a306d2",
+        "file": {
+          "url": "//images.ctfassets.net/eqb1x10m46e1/7vrY53ha3vjhDswS5xfz4o/062b88e5c07db49be676a9d34fc16caf/image1.png",
+          "details": {
+            "image": {
+              "width": 1200,
+              "height": 6079
+            }
+          }
+        }
+      },
+      {
+        "id": "7a147e3c-4da5-54ff-a57a-ee1833f36fd5",
+        "file": {
+          "url": "//images.ctfassets.net/eqb1x10m46e1/4l8fFxNDjCSsGXpVLLlrNi/2cc7ecd7aa155600bf85b26e07d6b177/image2.png",
+          "details": {
+            "image": {
+              "width": 566,
+              "height": 939
+            }
+          }
+        }
+      },
+      {
+        "id": "f2e0ea58-8f59-57ea-843d-137843b493cb",
+        "file": {
+          "url": "//images.ctfassets.net/eqb1x10m46e1/1Fs5Z31qCYZHIiyprxPpc2/ef78354888be8cd6fa408967db3ccef2/image3.png",
+          "details": {
+            "image": {
+              "width": 566,
+              "height": 1540
+            }
+          }
+        }
+      },
+      {
+        "id": "32a399c1-5555-5200-b5ee-3b675519d71a",
+        "file": {
+          "url": "//images.ctfassets.net/eqb1x10m46e1/552MtSlzAuKZsg4e4HgSHL/ca5b8aac310ea6eba96d0960c4c327bc/image4.png",
+          "details": {
+            "image": {
+              "width": 1920,
+              "height": 1200
+            }
+          }
+        }
+      }
+    ],
+    "mobileImage": {
+      "file": {
+        "url": "//images.ctfassets.net/eqb1x10m46e1/6n4xoN715N5rgBl4cMZSOe/a6d4fcf4fa22dc23988c38f113a6cf67/mobile.png",
+        "details": {
+          "image": {
+            "width": 640,
+            "height": 681
+          }
+        }
+      }
+    },
+    "mobileImages": [
+      {
+        "id": "5cbd0370-0a6e-5f11-ad57-9fcf6efdc9ac",
+        "file": {
+          "url": "//images.ctfassets.net/eqb1x10m46e1/1qaUIZG7rShozKh8YFlFFE/275216cfb431b7da33d3b209ffb55775/netgear_02.jpg",
+          "details": {
+            "image": {
+              "width": 400,
+              "height": 680
+            }
+          }
+        }
+      },
+      {
+        "id": "33f14bef-8329-5246-ad89-92c8c25f7510",
+        "file": {
+          "url": "//images.ctfassets.net/eqb1x10m46e1/6csp8quowD5qg368g9SVlf/63e2dd639dbfae4aeff51acb835df022/netgear_01.jpg",
+          "details": {
+            "image": {
+              "width": 400,
+              "height": 680
+            }
+          }
+        }
+      },
+      {
+        "id": "4a3eded8-8953-5888-af53-8c6b749d4627",
+        "file": {
+          "url": "//images.ctfassets.net/eqb1x10m46e1/1AGPpRTJLpcubAIuwaagxE/6ff3be82c9bb09220b1efe6175a94b7a/netgear_03.jpg",
+          "details": {
+            "image": {
+              "width": 400,
+              "height": 680
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "bbf4ecb5-2138-57cf-b665-95e7030e610a",
+    "order": 40,
+    "type": "H5 Website",
+    "metaData": {
+      "title": "Silicon Valley",
+      "metaTitle": "Baunfire | Silicon Valley Website Case Study | Web Design, User Experience, Interactive",
+      "description": "Baunfire built a microsite experience that showcases different perspectives from design-driven tech companies in the Bay Area. Explore the case study here.",
+      "keywords": "baunfire, silicon valley, case study, website, web design, web development, ui, ux, user interface, user experience, interactive, ecommerce, ecomm, digital design, digital strategy, corporate, technology, tech",
+      "ogImage": {
+        "file": {
+          "url": "//images.ctfassets.net/eqb1x10m46e1/2934Eu4a1wCj4sFGlYtAin/23ee770252243725be93256c71e7bc87/03_siliconvalley.jpg"
+        }
+      }
+    },
+    "awards": {
+      "type": "Awwwards",
+      "label": "Site of the day",
+      "link": "https://www.awwwards.com/sites/design-in-silicon-valley"
+    },
+    "slug": "silicon-valley",
+    "project": "Silicon Valley",
+    "service": "Website Design & Development",
+    "role": [
+      "Art Direction",
+      "Illustrations & Animations",
+      "Content Strategy"
+    ],
+    "headline": "An award-winning thought leadership microsite",
+    "description": {
+      "description": "The Role of Design in Silicon Valley is a microsite experience that showcases different perspectives from design-driven tech companies throughout the Bay Area. Our vision for this internal project was to push our creative design and development capabilities.\n\nThe project features six overarching themes, with various quotes from some of the most influential design thought leaders in tech today. Each blurb is accompanied by our interpretation as an agency as well as the role and importance of each theme at Baunfire.\n"
+    },
+    "keyImage": {
+      "file": {
+        "url": "//images.ctfassets.net/eqb1x10m46e1/5olyri2AyBoRYy21TYSLTZ/3d9785be8a04d83b4b403919ec2bf65a/ezgif.com-optimize__1_.gif"
+      }
+    },
+    "thumbnail": {
+      "file": {
+        "url": "//images.ctfassets.net/eqb1x10m46e1/1R7jpiDnBn38GYO41ZDDKW/c634cb8d81748991a538503411fc402d/Baunfire_SV1.gif",
+        "fileName": "Baunfire_SV1.gif",
+        "contentType": "image/gif"
+      },
+      "description": "",
+      "fluid": {
+        "src": "//images.ctfassets.net/eqb1x10m46e1/1R7jpiDnBn38GYO41ZDDKW/c634cb8d81748991a538503411fc402d/Baunfire_SV1.gif?w=840&q=90",
+        "srcSet": "//images.ctfassets.net/eqb1x10m46e1/1R7jpiDnBn38GYO41ZDDKW/c634cb8d81748991a538503411fc402d/Baunfire_SV1.gif?w=210&h=281&q=90 210w,\n//images.ctfassets.net/eqb1x10m46e1/1R7jpiDnBn38GYO41ZDDKW/c634cb8d81748991a538503411fc402d/Baunfire_SV1.gif?w=420&h=561&q=90 420w,\n//images.ctfassets.net/eqb1x10m46e1/1R7jpiDnBn38GYO41ZDDKW/c634cb8d81748991a538503411fc402d/Baunfire_SV1.gif?w=840&h=1122&q=90 840w",
+        "aspectRatio": 0.7486631016042781,
+        "srcWebp": "//images.ctfassets.net/eqb1x10m46e1/1R7jpiDnBn38GYO41ZDDKW/c634cb8d81748991a538503411fc402d/Baunfire_SV1.gif?w=840&q=90&fm=webp",
+        "srcSetWebp": "//images.ctfassets.net/eqb1x10m46e1/1R7jpiDnBn38GYO41ZDDKW/c634cb8d81748991a538503411fc402d/Baunfire_SV1.gif?w=210&h=281&q=90&fm=webp 210w,\n//images.ctfassets.net/eqb1x10m46e1/1R7jpiDnBn38GYO41ZDDKW/c634cb8d81748991a538503411fc402d/Baunfire_SV1.gif?w=420&h=561&q=90&fm=webp 420w,\n//images.ctfassets.net/eqb1x10m46e1/1R7jpiDnBn38GYO41ZDDKW/c634cb8d81748991a538503411fc402d/Baunfire_SV1.gif?w=840&h=1122&q=90&fm=webp 840w",
+        "sizes": "(max-width: 840px) 100vw, 840px"
+      }
+    },
+    "images": [
+      {
+        "id": "b0cbfa38-f542-5d90-93b3-c4199a39f887",
+        "file": {
+          "url": "//images.ctfassets.net/eqb1x10m46e1/5eV7h1lbf3PXDw39ZIWnP/bbee3256621be9c5e06de908ba60299c/image0.png",
+          "details": {
+            "image": {
+              "width": 1200,
+              "height": 665
+            }
+          }
+        }
+      },
+      {
+        "id": "5d8cc257-a04c-5390-97c7-27a83161882e",
+        "file": {
+          "url": "//images.ctfassets.net/eqb1x10m46e1/5npgovFPsP3RLVRdet21kJ/8a1d080959440c623ca1972f1dbcb4f8/NecessityLP_v2.gif",
+          "details": {
+            "image": {
+              "width": 1200,
+              "height": 665
+            }
+          }
+        }
+      },
+      {
+        "id": "58ef3722-d4f6-586b-bad5-1ebae3e470b4",
+        "file": {
+          "url": "//images.ctfassets.net/eqb1x10m46e1/6P66GbDYfj5YxcpGSl5gmT/d71b13c9cb91759385edcd98efacc7e2/image2.png",
+          "details": {
+            "image": {
+              "width": 1200,
+              "height": 2134
+            }
+          }
+        }
+      },
+      {
+        "id": "8a564774-1dda-55e6-8afb-e03c673be96c",
+        "file": {
+          "url": "//images.ctfassets.net/eqb1x10m46e1/2pLor62JMcPmW96pBdRq5B/22225c7c2f51244cff382f9911344f64/image3.png",
+          "details": {
+            "image": {
+              "width": 1200,
+              "height": 665
+            }
+          }
+        }
+      },
+      {
+        "id": "740e212a-5668-5c27-8845-212ad53eae84",
+        "file": {
+          "url": "//images.ctfassets.net/eqb1x10m46e1/01oXIK4RlyDk2l8Nj6ggh/ff0cb417f96db1588cd4d8619f75e98c/image4.png",
+          "details": {
+            "image": {
+              "width": 1920,
+              "height": 1200
+            }
+          }
+        }
+      }
+    ],
+    "mobileImage": {
+      "file": {
+        "url": "//images.ctfassets.net/eqb1x10m46e1/ibmUpB7MowTNViCE0sSyB/c4caec0bf17e7bfb2b44038aa6cadf6b/mobile.png",
+        "details": {
+          "image": {
+            "width": 640,
+            "height": 681
+          }
+        }
+      }
+    },
+    "mobileImages": [
+      {
+        "id": "14319e92-1882-5717-8f3d-b8aaf4d42e12",
+        "file": {
+          "url": "//images.ctfassets.net/eqb1x10m46e1/2hqxif1zVdvdqNkF4fvXxT/d4a8e88f618daac815c77fd3c5c663a5/siliconvalley_02.jpg",
+          "details": {
+            "image": {
+              "width": 400,
+              "height": 680
+            }
+          }
+        }
+      },
+      {
+        "id": "8bd42110-53a0-592d-9d40-4e6241c02f28",
+        "file": {
+          "url": "//images.ctfassets.net/eqb1x10m46e1/urdodvGmwczgUVY7tOB3s/2c08c463fcb59d8047c0147977e6b491/siliconvalley_01.jpg",
+          "details": {
+            "image": {
+              "width": 400,
+              "height": 680
+            }
+          }
+        }
+      },
+      {
+        "id": "c5f555db-a599-5417-8185-bc6dae0be5a9",
+        "file": {
+          "url": "//images.ctfassets.net/eqb1x10m46e1/1q55IEgtt4e8jcR9W2X4JI/8d60e74547e4bafd74ad4c7bd1ac756e/siliconvalley_03.jpg",
+          "details": {
+            "image": {
+              "width": 400,
+              "height": 680
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "96d3db4c-de5b-5bbd-a5ee-f2c34c6d30d4",
+    "order": 45,
+    "type": "H5 Website",
+    "metaData": {
+      "title": "Orbi",
+      "metaTitle": "Baunfire | Orbi Website Case Study | Web Design, User Experience, eCommerce",
+      "description": "To support Orbi's global launch, Baunfire was asked to build a modern website to drive traffic and sales online. Explore the case study here.",
+      "keywords": "baunfire, orbi, case study, website, web design, web development, ui, ux, user interface, user experience, interactive, ecommerce, ecomm, digital design, digital strategy, brand strategy, marketing, creative",
+      "ogImage": {
+        "file": {
+          "url": "//images.ctfassets.net/eqb1x10m46e1/uPAa7UU43B3pDX8htZRpS/08368a3be9471abcd893dd00d04f10f5/05_orbi.jpg"
+        }
+      }
+    },
+    "slug": "orbi",
+    "project": "Orbi",
+    "service": "Website Design & User Experience",
+    "role": [
+      "eCommerce",
+      "Design Direction",
+      "Content Strategy"
+    ],
+    "headline": "A website for the next wave of WiFi",
+    "description": {
+      "description": "Recently awarded the “most reliable WiFi router of the year,” Orbi’s products combine simple design with user-friendly functionality. To support the brand’s global launch, Baunfire was asked to build a modern, easy-to-use website with the goal of driving traffic and sales online.\n\nWe collaborated with their team to launch an all-new eCommerce platform, characterized by open layouts, high-fidelity product imagery, engaging animations, and purposeful microinteractions. The result: a fresh and intuitive website, optimized for conversion."
+    },
+    "keyImage": {
+      "file": {
+        "url": "//images.ctfassets.net/eqb1x10m46e1/11NGSYakrae3s4OGooW3VJ/367830528be96de63a3cb944b504b31a/detail_orbi.jpg"
+      }
+    },
+    "thumbnail": {
+      "file": {
+        "url": "//images.ctfassets.net/eqb1x10m46e1/7hk4j9dHI11i8PSxZir46k/3f303c6bb5e2ca0eca63e2dcae0caf88/orbi.jpg",
+        "fileName": "orbi.jpg",
+        "contentType": "image/jpeg"
+      },
+      "description": "",
+      "fluid": {
+        "src": "//images.ctfassets.net/eqb1x10m46e1/7hk4j9dHI11i8PSxZir46k/3f303c6bb5e2ca0eca63e2dcae0caf88/orbi.jpg?w=840&q=90",
+        "srcSet": "//images.ctfassets.net/eqb1x10m46e1/7hk4j9dHI11i8PSxZir46k/3f303c6bb5e2ca0eca63e2dcae0caf88/orbi.jpg?w=210&h=281&q=90 210w,\n//images.ctfassets.net/eqb1x10m46e1/7hk4j9dHI11i8PSxZir46k/3f303c6bb5e2ca0eca63e2dcae0caf88/orbi.jpg?w=420&h=561&q=90 420w,\n//images.ctfassets.net/eqb1x10m46e1/7hk4j9dHI11i8PSxZir46k/3f303c6bb5e2ca0eca63e2dcae0caf88/orbi.jpg?w=840&h=1122&q=90 840w",
+        "aspectRatio": 0.7486631016042781,
+        "srcWebp": "//images.ctfassets.net/eqb1x10m46e1/7hk4j9dHI11i8PSxZir46k/3f303c6bb5e2ca0eca63e2dcae0caf88/orbi.jpg?w=840&q=90&fm=webp",
+        "srcSetWebp": "//images.ctfassets.net/eqb1x10m46e1/7hk4j9dHI11i8PSxZir46k/3f303c6bb5e2ca0eca63e2dcae0caf88/orbi.jpg?w=210&h=281&q=90&fm=webp 210w,\n//images.ctfassets.net/eqb1x10m46e1/7hk4j9dHI11i8PSxZir46k/3f303c6bb5e2ca0eca63e2dcae0caf88/orbi.jpg?w=420&h=561&q=90&fm=webp 420w,\n//images.ctfassets.net/eqb1x10m46e1/7hk4j9dHI11i8PSxZir46k/3f303c6bb5e2ca0eca63e2dcae0caf88/orbi.jpg?w=840&h=1122&q=90&fm=webp 840w",
+        "sizes": "(max-width: 840px) 100vw, 840px"
+      }
+    },
+    "images": [
+      {
+        "id": "df3a477c-a0e6-51ba-a887-efac2cdb78aa",
+        "file": {
+          "url": "//images.ctfassets.net/eqb1x10m46e1/4n0Qurwntq6tjqVD6Bv1pm/742d81a13e5d0eaa46842d5e869e70aa/image0.png",
+          "details": {
+            "image": {
+              "width": 1920,
+              "height": 1200
+            }
+          }
+        }
+      },
+      {
+        "id": "765d4646-4a98-5969-8769-51b10df2504d",
+        "file": {
+          "url": "//images.ctfassets.net/eqb1x10m46e1/5Rkxkc97fNxfdbBllSGtKa/969c2db12eca2a386e4498572203e9c1/image1.png",
+          "details": {
+            "image": {
+              "width": 1200,
+              "height": 4921
+            }
+          }
+        }
+      },
+      {
+        "id": "e70d5145-ee01-51bd-a125-34b6da088f21",
+        "file": {
+          "url": "//images.ctfassets.net/eqb1x10m46e1/1tZ4TAoMmIka3xjCxxslIP/94f87bce6857ccc4075df9985e63c6c0/image2.png",
+          "details": {
+            "image": {
+              "width": 1200,
+              "height": 5307
+            }
+          }
+        }
+      },
+      {
+        "id": "436ca48c-9543-553b-9bde-0f76eadc9a55",
+        "file": {
+          "url": "//images.ctfassets.net/eqb1x10m46e1/6sX9whghl2zfDxVB01xTgQ/6a24a73b829e65dc32b609c0e82cbe9f/image3.png",
+          "details": {
+            "image": {
+              "width": 566,
+              "height": 1604
+            }
+          }
+        }
+      },
+      {
+        "id": "a3524343-1407-5dac-bc24-6ed14b27f143",
+        "file": {
+          "url": "//images.ctfassets.net/eqb1x10m46e1/43DdZyJy506FIN5ENdXE1A/43a9100af542377d32478a2bc83e7d85/image4.png",
+          "details": {
+            "image": {
+              "width": 566,
+              "height": 2274
+            }
+          }
+        }
+      },
+      {
+        "id": "2e6c2513-9e70-5695-a150-9b6754fd500c",
+        "file": {
+          "url": "//images.ctfassets.net/eqb1x10m46e1/6TInweYNXg71VW2wjZrc4X/a1ab79d25327e119a98239c21128f88b/image5.png",
+          "details": {
+            "image": {
+              "width": 1920,
+              "height": 1200
+            }
+          }
+        }
+      }
+    ],
+    "mobileImage": {
+      "file": {
+        "url": "//images.ctfassets.net/eqb1x10m46e1/2OTi5p6vwnmHl8KcmiDF83/907e386b831dec201513dcef236d82dc/mobile.png",
+        "details": {
+          "image": {
+            "width": 640,
+            "height": 681
+          }
+        }
+      }
+    },
+    "mobileImages": [
+      {
+        "id": "4f325d41-209c-585a-aa0c-33edcb8afafc",
+        "file": {
+          "url": "//images.ctfassets.net/eqb1x10m46e1/3Nm0D3TUZRKsiMxHoFX5Vw/e216258b5470f001c7cccd91bf8bd319/orbi_02.jpg",
+          "details": {
+            "image": {
+              "width": 400,
+              "height": 680
+            }
+          }
+        }
+      },
+      {
+        "id": "9575d6e9-6ee9-5e29-95fb-af95204091af",
+        "file": {
+          "url": "//images.ctfassets.net/eqb1x10m46e1/28hQ6kxgsmrTyY0iOxTkHc/db1957309a29845f2774547e68f44bf5/orbi_01.jpg",
+          "details": {
+            "image": {
+              "width": 400,
+              "height": 680
+            }
+          }
+        }
+      },
+      {
+        "id": "56d02e70-e264-5114-a378-86736d696457",
+        "file": {
+          "url": "//images.ctfassets.net/eqb1x10m46e1/UhO5HNRg6m4Hc6SOMTqQu/c7070d04c4dcc9c5004aa809660c24ce/orbi_03.jpg",
+          "details": {
+            "image": {
+              "width": 400,
+              "height": 680
+            }
+          }
+        }
+      }
+    ]
+  }
+]

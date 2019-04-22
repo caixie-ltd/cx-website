@@ -1,4 +1,41 @@
-[
+[{
+  "id": "1",
+  "order": 1,
+  "type": "H5 Website",
+  "metaData": {
+    "title": "Silicon Valley",
+    "metaTitle": "Baunfire | Silicon Valley Website Case Study | Web Design, User Experience, Interactive",
+    "description": "Baunfire built a microsite experience that showcases different perspectives from design-driven tech companies in the Bay Area. Explore the case study here.",
+    "keywords": "baunfire, silicon valley, case study, website, web design, web development, ui, ux, user interface, user experience, interactive, ecommerce, ecomm, digital design, digital strategy, corporate, technology, tech",
+    "ogImage": {
+      "file": {
+        "url": "//images.ctfassets.net/eqb1x10m46e1/2934Eu4a1wCj4sFGlYtAin/23ee770252243725be93256c71e7bc87/03_siliconvalley.jpg"
+      }
+    }
+  },
+  "awards": {
+    "type": "Awwwards",
+    "label": "Site of the day",
+    "link": "https://www.awwwards.com/sites/design-in-silicon-valley"
+  },
+  "slug": "silicon-valley",
+  "project": "Silicon Valley",
+  "service": "Website Design & Development",
+  "role": [
+    "Art Direction",
+    "Illustrations & Animations",
+    "Content Strategy"
+  ],
+  "headline": "An award-winning thought leadership microsite",
+  "description": {
+    "description": "The Role of Design in Silicon Valley is a microsite experience that showcases different perspectives from design-driven tech companies throughout the Bay Area. Our vision for this internal project was to push our creative design and development capabilities.\n\nThe project features six overarching themes, with various quotes from some of the most influential design thought leaders in tech today. Each blurb is accompanied by our interpretation as an agency as well as the role and importance of each theme at Baunfire.\n"
+  },
+  "keyImage": {
+    "file": {
+      "url": "//images.ctfassets.net/eqb1x10m46e1/5olyri2AyBoRYy21TYSLTZ/3d9785be8a04d83b4b403919ec2bf65a/ezgif.com-optimize__1_.gif"
+    }
+  }
+},
   {
     "id": "1",
     "order": 10,

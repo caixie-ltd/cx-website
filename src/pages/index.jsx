@@ -152,9 +152,6 @@ class IndexPage extends Component {
       triggerPointNextUp:
         momentumScrollValue +
         this.sectionNextUp.current.getBoundingClientRect().top - windowHeight,
-      // triggerPointFooter:
-      //   momentumScrollValue +
-      //   this.sectionFooter.current.getBoundingClientRect().top - windowHeight,
     })
   }
 
@@ -278,9 +275,6 @@ class IndexPage extends Component {
             <section ref={this.sectionFooter}>
             <Footer/>
             </section>
-            {/*<section>*/}
-              {/*<Footer />*/}
-            {/*</section>*/}
           </ScrollManager>
           <div style={{ display: isBrowser ? "block" : this.state.onWork ? "block" : "none" }}>
             <WorkScroll

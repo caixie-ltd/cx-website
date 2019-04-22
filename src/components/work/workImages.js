@@ -3,6 +3,7 @@ import React from "react"
 // import { $on, debounce } from "../../helper/help"
 import cls from "./workImages.module.scss"
 import InternalLink from "../../helper/links/InternalLink"
+// import Img from 'gatsby-image'
 
 export default class WorkImages extends Component {
   constructor(props) {
@@ -103,7 +104,10 @@ export default class WorkImages extends Component {
               title={project.title}
               data-bkgcolor="#ff0000"
               style={{ backgroundImage: "url(" + project.cover + ")" }}
-            />
+            >
+              {/*<Img fluid={data.thumbnail.fluid} />*/}
+
+            </InternalLink>
           </div>
         ))}
       </div>

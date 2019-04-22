@@ -227,6 +227,7 @@ class Arlo extends Component {
       </Layout>
     )
   }
+
 }
 
 export const query = graphql`

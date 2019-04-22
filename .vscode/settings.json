@@ -1,0 +1,6 @@
+{
+    // "files.associations": {
+        // "*.md": "mdx"
+    //   },
+  "auto-close-tag.activationOnLanguage": ["xml", "php", "...", "mdx"],
+}

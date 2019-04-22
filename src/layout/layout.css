@@ -138,7 +138,7 @@ body {
 
 body,html {
     width: 100%;
-    overflow: hidden;
+    /*overflow: hidden;*/
 }
 
 html.-locked {
@@ -685,15 +685,15 @@ body {
     letter-spacing: .03em;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    overflow: hidden;
-    scroll-behavior: smooth;
+    /*overflow: hidden;*/
+    /*scroll-behavior: smooth;*/
 }
 
 @media screen and (max-width: 768px) {
     body {
         font-size: 16px;
         line-height: 26px;
-        overflow: auto
+        /*overflow: auto*/
     }
 }
 

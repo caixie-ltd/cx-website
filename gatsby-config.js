@@ -5,6 +5,13 @@ module.exports = {
     author: `@caixie`,
   },
   plugins: [
+    `gatsby-transformer-yaml`,
+    {
+      resolve: `gatsby-mdx`,
+      options: {
+        extensitions: [".mdx", ".md"],
+      },
+    },
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-transformer-json`,
@@ -35,6 +42,13 @@ module.exports = {
         ignore: [`**/\.*`], //  ignore files starting with a dot
       },
     },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `posts`,
+        path: `${__dirname}/src/posts`,
+      },
+    },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
@@ -62,14 +76,14 @@ module.exports = {
         appDescription: null,
         developerName: null,
         developerURL: null,
-        dir: 'auto',
-        lang: 'en-US',
-        background: '#fff',
-        theme_color: '#fff',
-        display: 'standalone',
-        orientation: 'any',
-        start_url: '/?homescreen=1',
-        version: '1.0',
+        dir: "auto",
+        lang: "en-US",
+        background: "#fff",
+        theme_color: "#fff",
+        display: "standalone",
+        orientation: "any",
+        start_url: "/?homescreen=1",
+        version: "1.0",
 
         icons: {
           android: true,
@@ -81,9 +95,12 @@ module.exports = {
           opengraph: false,
           twitter: false,
           yandex: false,
-          windows: false
-        }
-      }
-    }
+          windows: false,
+        },
+      },
+    },
   ],
+  mapping: {
+    'Mdx.frontmatter.author': `AuthorYaml`
+  }
 }

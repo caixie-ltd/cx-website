@@ -47,7 +47,6 @@ const Layout = React.forwardRef((props, ref) => (
 
     <noscript>
     </noscript>
-
     <main style={mainStyle} ref={ref} className={props.theme}>
       {props.children}
       <BrowserView>
